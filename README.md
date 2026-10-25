@@ -2,7 +2,7 @@
 
 Pipeline completo para hacer videos largos horizontales (16:9, ~14 min) con el estilo de edición copiado del video de referencia «25 Marcas FABRICADAS EN MÉXICO… Antes de Desaparecer»: fichas FILE a máquina, números rojos, palabras gigantes, notas con resaltado, polaroids, carrusel y papel cuadriculado.
 
-**Si eres un chat nuevo de Claude: lee este archivo completo y luego `docs/ESTILO_DOCUMENTAL_EXPEDIENTE.md` antes de tocar nada.**
+**Si eres un chat nuevo de Claude: lee este archivo completo, luego `docs/PROCESO_COMPLETO.md` (toda la historia, errores y correcciones hasta el video final) y `docs/ESTILO_DOCUMENTAL_EXPEDIENTE.md`, antes de tocar nada. El objetivo es replicar ESTA edición con el tema que Luis dé, entregando desde el inicio la calidad del último video.**
 
 ## Estado (2026-10-24)
 
