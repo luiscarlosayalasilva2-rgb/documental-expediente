@@ -131,6 +131,17 @@ if edl_path:
     if peor:
         chk('parada con menos imágenes', peor[0] <= 6, f'{peor[2]} en {peor[3]} s (t={peor[1]})', '>= 1 imagen distinta cada 6 s')
 
+    # detalles del catálogo (docs/CATALOGO_DETALLES.md): escenas de papel con pie, polaroids, blanco y negro
+    modos = Counter(p['papel']['modo'] for p in P if p['tipo'] == 'papel')
+    npar = max(1, len(fts))
+    chk('escenas de papel (polaroid/única/VS/carrusel)', sum(modos.values()) >= npar / 1.5, str(sum(modos.values())), f'>= {npar / 1.5:.0f}')
+    chk('polaroids', modos['polaroid'] >= round(npar / 3), str(modos['polaroid']), f'>= {round(npar / 3)}')
+    chk('fotos únicas sobre papel con pie', modos['unica'] >= round(npar / 6), str(modos['unica']), f'>= {round(npar / 6)}')
+    sin_pie = sum(1 for p in P if p['tipo'] == 'papel' for f in p['papel']['fotos'] if not f.get('pie'))
+    chk('fotos de papel con pie escrito', sin_pie == 0, f'{sin_pie} sin pie', '0 sin pie')
+    nbw = sum(1 for p in P if p.get('bw'))
+    chk('planos en blanco y negro (pérdida)', nbw >= round(npar * 2 / 3), str(nbw), f'>= {round(npar * 2 / 3)}')
+
     # cierre: carrusel en el último minuto y palabra final hasta el final
     carr = any(p['tipo'] == 'papel' and p['papel']['modo'] == 'carrusel' and p['t0'] > dur - 60 for p in P)
     fin = any(c['tipo'] == 'palabra' and c['t'] + c['dur'] >= dur - 1.5 for c in C)

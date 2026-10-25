@@ -8,6 +8,7 @@ Vas a editar un video documental largo, horizontal 16:9, **exactamente con la mi
 
 Antes de hacer nada, lee completos y en este orden:
 1. `docs/REGLAS_DURAS.md`: reglas obligatorias, metas medibles y fotos de cómo debe verse cada recurso.
+   - `docs/CATALOGO_DETALLES.md`: **todos los detalles de la edición** con su animación y cuántas veces van. Hay que ponerlos **todos**: papel que empuja con foto y pie, polaroids, VS, carrusel, blanco y negro y notas.
 2. `README.md`: la receta paso a paso y las reglas de edición.
 3. `docs/IMAGENES_Y_SINCRONIA.md`: cómo elegir cada imagen según lo que se narra y pegarla al segundo del audio.
 4. `docs/PROCESO_COMPLETO.md`: los errores que ya se cometieron y cómo se resolvieron.

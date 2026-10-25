@@ -70,6 +70,8 @@ El v6 corrigió el texto en tarjetas, pero el verificador lo rechazó por esto:
 
 ## Así debe verse cada recurso (fotogramas del video aprobado)
 
+La versión completa, con la animación de cada detalle cuadro a cuadro y su frecuencia obligatoria, está en **[CATALOGO_DETALLES.md](CATALOGO_DETALLES.md)**. Ahí están el papel que empuja, la foto única con pie, las polaroids con franja roja, la VS, el carrusel, el blanco y negro y el zoom.
+
 ![referencia](referencia/_todos.jpg)
 
 | Recurso | Cuándo se usa | Ejemplo |
