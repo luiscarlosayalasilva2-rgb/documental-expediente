@@ -82,18 +82,18 @@ Así se construyeron los EDL de este video, que son la referencia exacta: `final
 
 | # | Paso | Script / comando |
 |---|---|---|
-| 1 | Quitar silencios de la voz y normalizar a −14 LUFS | `ffmpeg … silenceremove=…stop_duration=0.15…stop_silence=0.12` + `acompressor` + `loudnorm` de dos pasadas (ver `docs/memoria/colombia12-pipeline.md`) |
+| 1 | Quitar silencios de la voz y normalizar a −14 LUFS | `powershell -File src\voz.ps1 -Entrada <audio.wav>` |
 | 2 | Transcribir con tiempos por palabra | `python src/transcribir.py audio/voz_final.wav audio/palabras.json` |
 | 3 | Alinear el guion con la voz (los títulos INTRO, PARADA N y CIERRE marcan secciones) | `python src/alinear.py guion.txt audio/palabras.json audio/frases.json` |
 | 4 | Bajar material: Pixabay (fotos y video) y Wikimedia Commons | `python src/pixabay.py <carpeta> foto\|video <n> "consulta"…` · `python src/commons.py "consulta"` |
-| 5 | Bajar fotos de Google Imágenes en tamaño original | `src/receptor.py` (servidor en 127.0.0.1:8765) + la función `loteHD` en Chrome (ver abajo) |
+| 5 | Bajar fotos de Google Imágenes en tamaño original | `src/receptor.py` (servidor en 127.0.0.1:8765) + `src/lote_google.js` en Chrome (ver abajo) |
 | 6 | Hojas de contacto para elegir | `python src/hoja.py <carpeta> <salida.jpg> "patrón"` |
 | 7 | EDL: planos por frase + capas de texto | `src/edl_demo.py` (intro + parada 12) → `src/edl_completo.py` → `src/aplicar_hd.py` → `src/edl_v3.py` |
 | 8 | Mejorar las fotos de menos de 1000 px | `python src/mejorar_fotos.py final/edl_hd.json media/hd_esrgan` |
 | 9 | Encontrar la misma foto en HD (dHash) | `python src/emparejar_hd.py final/edl_completo.json final/mapa_hd.json` |
 | 10 | Recortar logos, firmas y marcos | `src/limpiar.py` (diccionario `RECORTES`) |
 | 11 | Render 1920×1080 a 30 fps (4 procesos, unos 15 min para 14 min de video) | `python src/render.py final/edl_v3.json salida.mp4 --workers 4` |
-| 12 | Efectos de sonido sintetizados | `python src/efectos.py final/edl_v3.json audio/efectos_v3.wav`, y se mezclan con `amix` + `alimiter` |
+| 12 | Render + efectos de sonido sintetizados + mezcla con la voz | `powershell -File src\mezclar.ps1 -Edl final\edl_v3.json -Salida final\X.mp4` |
 | 13 | Miniatura | `python src/miniatura.py` |
 
 ### Motor visual
@@ -124,7 +124,7 @@ Así se construyeron los EDL de este video, que son la referencia exacta: `final
    $env:RECEPTOR_DIR='google_hd'; python src/receptor.py
    ```
 2. En Chrome, busca en Google Imágenes con `&udm=2&tbs=isz:l` (tamaño grande).
-3. Ejecuta `eval(localStorage.loteHD); loteHD('prefijo', n, anchoMin, proporciónMin)`. La función está guardada en el `localStorage` de google.com; si se perdió, el código está en el historial de la sesión anterior y la idea se explica abajo.
+3. Pega el contenido de `src/lote_google.js` en la pestaña, con `javascript_tool` de Claude in Chrome, y llama a `loteHD('prefijo', n, anchoMin, proporciónMin)`. Si lo guardas en `localStorage.loteHD`, las demás pestañas de google.com lo reutilizan con `eval(localStorage.loteHD)`.
 
 Cómo funciona `loteHD`:
 - La URL original y el tamaño de cada foto están en los `<script>` de la página, con el formato `["url",alto,ancho]` justo después del `data-docid` del resultado.
@@ -138,3 +138,16 @@ Cómo funciona `loteHD`:
 - `docs/memoria/`: notas de trabajo de Claude (pipeline, reglas de feedback y velocidad de la PC).
 - `guion.txt`: guion del video de las 12 marcas. Es la plantilla del formato.
 - `final/TEXTOS_YOUTUBE.txt`: ejemplo de título, descripción, capítulos y etiquetas.
+- `datos/palabras.json`, `datos/frases.json`: la transcripción con tiempos y la alineación del guion de este video.
+- `src/analisis/`: los scripts con los que se analizó el video de referencia (cortes, brillo por fotograma y efectos de sonido).
+- `CLAUDE.md`: hace que Claude lea este README al abrir la carpeta.
+
+## Reproducir ESTE mismo video
+
+**En la misma PC de Luis** funciona tal cual. Los EDL (`final/*.json`) apuntan a las fotos y clips que siguen en `C:\Users\luisa\calude\colombia12\media\` y a la voz en `audio\`. Basta con:
+
+```powershell
+powershell -File src\mezclar.ps1 -Edl final\edl_v3.json -Salida final\copia.mp4
+```
+
+**En otra PC** hay que copiar también las carpetas `media\` y `audio\`, que pesan unos 4.6 GB y no están en GitHub, y ajustar las rutas de los EDL.
