@@ -4,6 +4,10 @@ Pipeline completo para hacer videos largos horizontales (16:9, ~14 min) con el e
 
 **Si eres un chat nuevo de Claude: lee este archivo completo, luego `docs/PROCESO_COMPLETO.md` (toda la historia, errores y correcciones hasta el video final) y `docs/ESTILO_DOCUMENTAL_EXPEDIENTE.md`, antes de tocar nada. El objetivo es replicar ESTA edición con el tema que Luis dé, entregando desde el inicio la calidad del último video.**
 
+## ⚠️ Antes de todo: [docs/REGLAS_DURAS.md](docs/REGLAS_DURAS.md)
+
+Ahí están las reglas obligatorias con metas medibles, las fotos de cómo debe verse cada recurso y lo que está **prohibido**: poner la narración escrita en tarjetas, que pasó en una versión rechazada. Ningún video se entrega sin que **`python src/verificar.py video.mp4 edl.json`** diga **APROBADO**. Para empezar en otra IA hay un prompt listo en [docs/PROMPT_PARA_OTRA_IA.md](docs/PROMPT_PARA_OTRA_IA.md).
+
 ## Estado (2026-10-24)
 
 El video "12 Marcas Colombianas" está **terminado y entregado**. Los archivos finales están en la PC de Luis, no en este repo, porque pesan demasiado o tienen fotos de terceros:
