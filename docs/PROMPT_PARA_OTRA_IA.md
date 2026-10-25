@@ -20,6 +20,10 @@ Reglas que no se negocian:
 - Fotos auténticas (Google, redes, foros, Pixabay o Commons). Nada de imágenes de IA, frames de comerciales de TV ni marcas de agua.
 - Voz sin silencios, sin música, solo los efectos sintetizados de `src/efectos.py`. Sin créditos.
 - Antes de entregar, corre `python src/verificar.py video.mp4 edl.json`. **Solo se entrega si dice APROBADO.**
+- **Una imagen distinta cada 6 s como mínimo en cada parada** (una por cada cosa que se narra), nunca la misma foto durante toda una parada.
+- **Apertura numerada (número grande + nombre) en las 12 paradas**, sobre una foto de esa marca, y el **cierre** con carrusel y palabra final.
+- **No aceleres la voz.** Usa el audio tal como sale de `src/voz.ps1`.
+- Entrega siempre: el video, el **EDL (json)**, el **.srt** (`src/generar_srt.py`), la miniatura, los textos y la salida del verificador.
 - Primero haz un **demo de 1 minuto** para que lo apruebe.
 
 El tema nuevo es: **[TEMA]**. Te paso el guion (con secciones INTRO, PARADA N — Nombre y CIERRE) y el audio de la voz.

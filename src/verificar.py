@@ -11,8 +11,11 @@ Metas (medidas sobre el video aprobado; ver docs/REGLAS_DURAS.md):
 - pantallas con número/palabra (fondo oscurecido) >= 3 por minuto
 - negros de más de 0.3 s        = 0
 - voz: integrado entre -16 y -13 LUFS y ninguna pausa > 0.35 s
-Con EDL además: >= 25 clips de video, 0 fotos repetidas (salvo carrusel), >= 1 número rojo por parada,
->= 1 palabra gigante por minuto y medio, apertura numerada en cada parada.
+- velocidad de la voz: 3.2 a 3.8 palabras por segundo (aprobado: 3.6). Prohibido acelerar el audio con atempo.
+EL EDL ES OBLIGATORIO (sin él el video no se aprueba). Con EDL además: >= 25 clips de video, 0 fotos repetidas
+(salvo carrusel), >= 1 número rojo por parada, >= 1 palabra gigante por minuto y medio, apertura numerada
+(número grande + nombre) justo antes de CADA ficha, >= 1 imagen distinta cada 6 s en CADA parada,
+y cierre con carrusel + palabra final.
 """
 import json, os, re, subprocess, sys
 from collections import Counter
@@ -65,6 +68,27 @@ chk('negros > 0.3 s', negros == 0, str(negros), '0')
 chk('volumen integrado de la voz', -16 <= lufs <= -13, f'{lufs:.1f} LUFS', '-16 a -13')
 chk('pausas de la voz > 0.35 s', len(sil) <= 2, str(len(sil)), '<= 2')
 
+# velocidad de la voz: palabras por segundo en 3 tramos de 40 s (detecta audio acelerado)
+try:
+    import numpy as np
+    from faster_whisper import WhisperModel
+    modelo = WhisperModel('small', device='cpu', compute_type='int8')
+    pal, seg = 0, 0.0
+    for f in (0.15, 0.5, 0.8):
+        a = dur * f
+        pcm = subprocess.run(['ffmpeg', '-v', 'error', '-ss', str(a), '-t', '40', '-i', video, '-f', 's16le', '-ac', '1', '-ar', '16000', '-'],
+                             capture_output=True).stdout
+        trozos, _ = modelo.transcribe(np.frombuffer(pcm, np.int16).astype(np.float32) / 32768, language='es', vad_filter=False)
+        pal += sum(len(t.text.split()) for t in trozos); seg += 40
+    pps = pal / seg
+    chk('velocidad de la voz (no acelerada)', 3.2 <= pps <= 3.8, f'{pps:.2f} pal/s', '3.2 a 3.8')
+except ImportError:
+    print('      (sin faster-whisper: no se midió la velocidad de la voz)')
+
+if not edl_path:
+    print()
+    chk('EDL entregado junto al video', False, 'falta', 'obligatorio')
+
 if edl_path:
     e = json.load(open(edl_path, encoding='utf-8'))
     P, C = e['planos'], e['capas']
@@ -87,6 +111,30 @@ if edl_path:
     chk('palabras gigantes', tipos['palabra'] >= mins / 1.5, str(tipos['palabra']), f'>= {mins / 1.5:.0f}')
     chk('notas a máquina (lemas)', tipos['nota'] >= fichas / 2, str(tipos['nota']), f'>= {fichas / 2:.0f}')
     chk('tiempo en escenas de papel', papeles / dur <= 0.15, f'{papeles / dur * 100:.0f} %', '<= 15 %')
+
+    # apertura numerada justo antes de CADA ficha
+    fts = sorted(c['t'] for c in C if c['tipo'] == 'file')
+    ats = [c['t'] for c in C if c['tipo'] == 'numero' and c.get('grande')]
+    sin_ap = [round(t) for t in fts if not any(0 <= t - a <= 4 for a in ats)]
+    chk('cada ficha con su apertura numerada', not sin_ap, 'todas' if not sin_ap else f'faltan en {sin_ap}', 'todas')
+
+    # imágenes distintas por parada (una por cada cosa narrada)
+    def fuentes(p):
+        if p['tipo'] == 'papel': return [f['src'] for f in p['papel']['fotos']]
+        return [p['src']]
+    peor = None
+    for k, t0 in enumerate(fts):
+        t1 = fts[k + 1] if k + 1 < len(fts) else dur
+        dist = {os.path.basename(f) for p in P if p['t0'] < t1 and p['t1'] > t0 for f in fuentes(p)}
+        ritmo = (t1 - t0) / max(1, len(dist))
+        if peor is None or ritmo > peor[0]: peor = (ritmo, round(t0), len(dist), round(t1 - t0))
+    if peor:
+        chk('parada con menos imágenes', peor[0] <= 6, f'{peor[2]} en {peor[3]} s (t={peor[1]})', '>= 1 imagen distinta cada 6 s')
+
+    # cierre: carrusel en el último minuto y palabra final hasta el final
+    carr = any(p['tipo'] == 'papel' and p['papel']['modo'] == 'carrusel' and p['t0'] > dur - 60 for p in P)
+    fin = any(c['tipo'] == 'palabra' and c['t'] + c['dur'] >= dur - 1.5 for c in C)
+    chk('cierre (carrusel + palabra final)', carr and fin, ('carrusel ' if carr else '') + ('palabra' if fin else '') or 'falta', 'ambos')
 
 print('\n' + ('APROBADO: cumple todas las metas.' if all(res) else f'NO APROBADO: {res.count(False)} metas fallan. Corregir antes de entregar.'))
 sys.exit(0 if all(res) else 1)

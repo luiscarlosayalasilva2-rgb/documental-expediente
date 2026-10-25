@@ -121,6 +121,8 @@ Así se construyeron los EDL de este video, que son la referencia exacta: `final
 | 11 | Render 1920×1080 a 30 fps (4 procesos, unos 15 min para 14 min de video) | `python src/render.py final/edl_v3.json salida.mp4 --workers 4` |
 | 12 | Render + efectos de sonido sintetizados + mezcla con la voz | `powershell -File src\mezclar.ps1 -Edl final\edl_v3.json -Salida final\X.mp4` |
 | 13 | Miniatura | `python src/miniatura.py` |
+| 14 | Subtítulos .srt para YouTube (no van en la imagen) | `python src/generar_srt.py audio/frases.json final/X.srt` |
+| 15 | Verificación obligatoria (con EDL) | `python src/verificar.py final/X.mp4 final/edl.json` |
 
 ### Motor visual
 

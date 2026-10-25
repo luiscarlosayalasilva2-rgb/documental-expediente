@@ -17,6 +17,33 @@ python src/verificar.py final/MI_VIDEO.mp4 final/mi_edl.json
 - **PROHIBIDO imágenes generadas con IA.**
 - **Si no hay foto de algo:** se busca más (Google, redes, foros), se usa una foto de la época o un **clip de video real** del ambiente. **Nunca** se resuelve con texto en pantalla.
 
+## Errores de la versión v6 (otro agente, ya con el motor del repo) — también PROHIBIDOS
+
+El v6 corrigió el texto en tarjetas, pero el verificador lo rechazó por esto:
+- **Una sola foto por parada.** La misma imagen duró 50, 70, 80 y hasta **114 s** (3 cortes por minuto). **Obligatorio: 1 imagen distinta cada 6 s como mínimo en CADA parada**, una por cada cosa que se narra. En el aprobado son de 10 a 18 imágenes por parada.
+- **Fotos que no corresponden.** En la parada del Chupi Plum nunca salió un Chupi Plum, solo niños en un recreo, y esa foto se repitió en el Tía. La apertura de Conavi salió sobre la foto del Ley. **Cada apertura va sobre una foto de SU marca.**
+- **Aperturas numeradas incompletas.** Solo 5 de 12. **Obligatorio: el número grande con el nombre antes de CADA ficha**, en las 12.
+- **Voz acelerada un 13 %** (12:16 en vez de 13:52). **PROHIBIDO acelerar el audio** (atempo o similar). Se usa `audio/voz_final.wav` tal como sale de `src/voz.ps1`, que solo quita silencios.
+- **Sin video real.** Todo eran fotos fijas. Obligatorio: unos 25 clips por cada 14 min.
+- **Sin cierre.** Obligatorio: el número del total, el carrusel con una foto por marca y su número, y la palabra final hasta el último segundo.
+- **Afiches y frames de comerciales** (la hormiguita de Telecom, el comercial de la abejita). Prohibidos.
+- **No entregó el EDL.** **El EDL (json) se entrega siempre junto al video**; sin él, el verificador no aprueba.
+
+## Subtítulos (SRT)
+
+- **En la imagen NO van subtítulos**, igual que en el video de referencia.
+- **Para YouTube se entrega un `.srt` aparte**, generado del guion con los tiempos de la voz:
+  `python src/generar_srt.py audio/frases.json final/VIDEO.srt`
+  Las líneas tienen máximo 42 caracteres, máximo 2 por subtítulo, y cada subtítulo dura entre 1 y 7 s. Se sube en YouTube Studio → Subtítulos → Subir archivo.
+
+## Lo que se entrega siempre
+
+1. `final/VIDEO_FINAL.mp4`
+2. `final/edl.json`, el EDL con el que se renderizó
+3. `final/VIDEO_FINAL.srt`
+4. `final/miniatura.jpg` y `final/TEXTOS_YOUTUBE.txt`
+5. La salida completa de `python src/verificar.py final/VIDEO_FINAL.mp4 final/edl.json`, que debe decir **APROBADO**
+
 ## Metas medidas (video aprobado y versión rechazada)
 
 | Medida | Meta | Aprobado | Rechazado (v4) |
@@ -33,6 +60,11 @@ python src/verificar.py final/MI_VIDEO.mp4 final/mi_edl.json
 | Palabras gigantes | **≥ 1 cada 1.5 min** | 24 | 0 |
 | Notas a máquina (lemas entre comillas) | **≥ 1 cada 2 ítems** | 11 | 0 |
 | Voz: volumen y pausas | −16 a −13 LUFS, pausas ≤ 0.35 s | −15.4 / 0 | −14.7 / 0 ✔ |
+| Velocidad de la voz (no acelerada) | 3.2 a 3.8 palabras/s | ~3.6 | ~4.0 en el v6 (acelerada) |
+| Imágenes distintas por parada | ≥ 1 cada 6 s en cada parada | 10 a 18 por parada | 1 o 2 en el v6 |
+| Aperturas numeradas | antes de cada ficha | 12 de 12 | 5 de 12 en el v6 |
+| Cierre | carrusel + palabra final | sí | no en el v6 |
+| EDL entregado | obligatorio | sí | no en el v6 |
 
 \*Son fotos en blanco y negro muy parecidas, en las que el detector no ve el corte. La duración real de cada plano la da el EDL.
 
