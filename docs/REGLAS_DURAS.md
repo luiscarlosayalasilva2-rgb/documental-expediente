@@ -91,6 +91,6 @@ La versión completa, con la animación de cada detalle cuadro a cuadro y su fre
 
 1. Leer `README.md`, `docs/IMAGENES_Y_SINCRONIA.md` y este archivo.
 2. Bajar las fotos **reales** de cada cosa narrada (una búsqueda por cosa, unas 10 por ítem).
-3. Armar el EDL con `src/edl_completo.py` como plantilla.
+3. Armar el EDL con **`src/nuevo_video.py plan`** (esqueleto automático con toda la estructura), rellenar los `PENDIENTE` y los `REVISAR`, y comprobar con `src/nuevo_video.py validar`. **No se arma el EDL desde cero ni con otra estructura.**
 4. Renderizar **un demo de 1 minuto** y pasarle `src/verificar.py`. Luis lo aprueba.
 5. Renderizar el video completo, pasarle `src/verificar.py` y entregarlo **solo si sale APROBADO**.

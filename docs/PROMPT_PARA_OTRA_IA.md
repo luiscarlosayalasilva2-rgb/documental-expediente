@@ -15,6 +15,7 @@ Antes de hacer nada, lee completos y en este orden:
 
 Reglas que no se negocian:
 - Usa el motor del repo (`src/render.py` y `src/estilo.py`) sin modificar el diseño. No escribas tu propio editor: solo armas el EDL (json) y lo renderizas con `src/mezclar.ps1`.
+- El EDL **se arma con `python src/nuevo_video.py plan …`**, que crea el esqueleto con toda la estructura. Tú solo rellenas los `PENDIENTE` (una foto o un clip real de lo que se oye en ese segundo, guiándote por el archivo `.huecos.md`) y los `REVISAR` (textos). Antes de renderizar corre `python src/nuevo_video.py validar …` hasta que diga LISTO.
 - La pantalla casi siempre muestra una **foto o un video real de lo que la voz dice en ese segundo**, con zoom lento. **Nunca** se pone la narración escrita en tarjetas. Los textos (número rojo, palabra gigante, ficha, nota corta) son acentos encima de la imagen.
 - Cortes cada 3 o 4 s en promedio, ningún plano de más de 11 s, unos 35 clips de video en 14 min, cero fotos repetidas.
 - Cada ítem de la lista abre con su **número rojo grande y el nombre** debajo, y luego la ficha "PARADA N".

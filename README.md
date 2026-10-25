@@ -69,7 +69,16 @@ Luis entrega dos cosas: el **guion** con secciones `INTRO`, `PARADA N — Nombre
 2. **Guion:** se guarda como `guion.txt` y se corren `src/transcribir.py` y `src/alinear.py`. Así cada frase queda con su segundo exacto, en `audio/frases.json`; para una palabra concreta se usa `src/palabras_en.py`.
 3. **Búsquedas:** se hace una lista de búsquedas, **una por cada cosa concreta que se narra**, con el nombre de la marca más el objeto, el lugar o la época. Se lanzan en 4 o 5 pestañas de Chrome con `src/lote_google.js` (filtro `tbs=isz:l`). Para lo genérico se usa Pixabay, en fotos y video.
 4. **Hojas de contacto:** con `src/hoja.py` se revisan **todas las fotos con los ojos** y se eligen solo las que muestran lo que se narra.
-5. **EDL:** se copia `src/edl_completo.py` como plantilla (estructura, funciones `tramos`, `abre`, `numero`, `palabra`, `nota`) y se rellena con los tiempos del nuevo guion, siguiendo las **reglas de edición** de abajo.
+5. **EDL, con la plantilla automática:**
+   ```
+   python src/nuevo_video.py plan audio/frases.json audio/palabras.json final/edl_NUEVO.json --etiqueta Parada
+   ```
+   Arma solo el **esqueleto** con toda la estructura del video aprobado: aperturas y fichas de cada ítem, cortes por idea, números rojos en cada cifra, palabras gigantes, notas en los lemas, blanco y negro en las pérdidas, escenas de papel, huecos de video y el cierre con carrusel.
+   - Además deja `final/edl_NUEVO.huecos.md` con **cada foto que hay que buscar** y la frase que se oye en ese segundo.
+   - Hay que **rellenar** cada `PENDIENTE` con la ruta de la foto o el clip, y cada `REVISAR` con el texto final (la palabra gigante, la etiqueta del número, los pies).
+   - `python src/nuevo_video.py validar final/edl_NUEVO.json` dice qué falta. No se renderiza hasta que salga **LISTO**.
+   - `--etiqueta` cambia el texto de la ficha ("Parada", "N°", "Capítulo"…). Los guiones con secciones `INTRO`, `ITEM N — Nombre` y `CIERRE` funcionan con cualquier palabra en lugar de PARADA.
+   - Para ajustes finos se puede usar `src/edl_completo.py` como ejemplo de un EDL hecho a mano.
 6. **HD:** `src/emparejar_hd.py`, luego `src/aplicar_hd.py`, luego `src/mejorar_fotos.py` (Real-ESRGAN) y `src/limpiar.py` para los recortes.
 7. **Video corto de prueba:** antes del video completo se renderiza la intro y la primera parada (`--desde/--hasta`) y se le envía a Luis para que la apruebe.
 8. **Final:** `powershell -File src\mezclar.ps1 -Edl final\edl_X.json -Salida final\X_FINAL.mp4`. Después se revisa la hoja de fotogramas cada 8 s y se buscan negros con `blackdetect`.
