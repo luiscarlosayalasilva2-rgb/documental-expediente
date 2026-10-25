@@ -1,4 +1,4 @@
-# Paso 1: voz sin espacios vacíos y con volumen parejo (-14 LUFS, rango ~3 LU, como el video de referencia).
+﻿# Paso 1: voz sin espacios vacíos y con volumen parejo (-14 LUFS, rango ~3 LU, como el video de referencia).
 # Uso: powershell -File src\voz.ps1 -Entrada "C:\ruta\audio_original.wav"   -> audio\voz_final.wav
 param([Parameter(Mandatory)][string]$Entrada)
 $ErrorActionPreference = 'Stop'

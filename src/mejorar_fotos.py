@@ -7,7 +7,8 @@ Salida: <carpeta>/<nombre>.jpg reducido a 2400 px de ancho máx. Se salta lo ya 
 import json, os, subprocess, sys, tempfile
 from PIL import Image
 
-EXE = r'C:\Users\luisa\calude\herramientas\realesrgan\realesrgan-ncnn-vulkan.exe'
+# instalar.ps1 lo deja en ../herramientas/realesrgan, al lado de la carpeta del repo
+EXE = os.environ.get('REALESRGAN_EXE') or os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'herramientas', 'realesrgan', 'realesrgan-ncnn-vulkan.exe'))
 edl, dest = json.load(open(sys.argv[1], encoding='utf-8')), sys.argv[2]
 os.makedirs(dest, exist_ok=True)
 fotos = set()

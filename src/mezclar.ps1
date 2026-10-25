@@ -1,4 +1,4 @@
-# Pasos 11-12: render del EDL + efectos sintetizados + mezcla final con la voz (sin música).
+﻿# Pasos 11-12: render del EDL + efectos sintetizados + mezcla final con la voz (sin música).
 # Uso: powershell -File src\mezclar.ps1 -Edl final\edl_v3.json -Salida final\video_FINAL.mp4
 # La laptop debe estar conectada al cargador (si se suspende, el render se cae).
 param([string]$Edl = 'final\edl_v3.json', [string]$Salida = 'final\video_FINAL.mp4')

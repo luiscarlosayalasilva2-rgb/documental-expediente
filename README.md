@@ -24,6 +24,28 @@ Lo que sigue es el próximo video, anunciado en el guion: **la tienda del colegi
 - **Calidad:** fotos HD y horizontales. Si una es pequeña, se mejora con Real-ESRGAN.
 - **Forma de trabajar:** en mejoras grandes Luis dijo "no me preguntes nada hasta que lo mejores". Se trabaja de corrido y se entrega terminado.
 
+## Instalación en una PC nueva (o para comprobar esta)
+
+Desde la carpeta del repo:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File instalar.ps1
+```
+
+El script instala desde sus fuentes oficiales todo lo que falte:
+- **Python 3.13** y **ffmpeg**, con winget;
+- **faster-whisper, numpy y pillow**, con las versiones de `requirements.txt`;
+- **Real-ESRGAN**, el release oficial de xinntao/Real-ESRGAN, que deja en `..\herramientas\realesrgan`;
+- el **modelo small de Whisper**.
+
+Se puede volver a correr sin problema: salta lo que ya está instalado.
+
+Hay dos cosas que quedan a mano:
+- la **clave de Pixabay**, con `src\guardar_clave_pixabay.ps1`;
+- la extensión **Claude in Chrome**.
+
+Estos programas no se suben al repo porque son de terceros y tienen su propia licencia y distribución. El instalador los baja de su sitio original.
+
 ## Herramientas en la PC de Luis
 
 Windows 11, Intel i3 sin GPU dedicada, 7.7 GB de RAM.
