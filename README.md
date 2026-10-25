@@ -35,6 +35,49 @@ Windows 11, Intel i3 sin GPU dedicada, 7.7 GB de RAM.
 - **Claude in Chrome** (la extensión) para bajar fotos de Google Imágenes.
 - **Batería:** la laptop se suspende con batería baja y eso mata el render. Siempre con el cargador conectado.
 
+## Receta para un video NUEVO, editado igual que este
+
+Luis entrega dos cosas: el **guion** con secciones `INTRO`, `PARADA N — Nombre` y `CIERRE`, y el **audio** de la voz.
+
+1. **Voz:** `powershell -File src\voz.ps1 -Entrada "<audio.wav>"`.
+2. **Guion:** se guarda como `guion.txt` y se corren `src/transcribir.py` y `src/alinear.py`. Así cada frase queda con su segundo exacto, en `audio/frases.json`; para una palabra concreta se usa `src/palabras_en.py`.
+3. **Búsquedas:** se hace una lista de búsquedas, **una por cada cosa concreta que se narra**, con el nombre de la marca más el objeto, el lugar o la época. Se lanzan en 4 o 5 pestañas de Chrome con `src/lote_google.js` (filtro `tbs=isz:l`). Para lo genérico se usa Pixabay, en fotos y video.
+4. **Hojas de contacto:** con `src/hoja.py` se revisan **todas las fotos con los ojos** y se eligen solo las que muestran lo que se narra.
+5. **EDL:** se copia `src/edl_completo.py` como plantilla (estructura, funciones `tramos`, `abre`, `numero`, `palabra`, `nota`) y se rellena con los tiempos del nuevo guion, siguiendo las **reglas de edición** de abajo.
+6. **HD:** `src/emparejar_hd.py`, luego `src/aplicar_hd.py`, luego `src/mejorar_fotos.py` (Real-ESRGAN) y `src/limpiar.py` para los recortes.
+7. **Video corto de prueba:** antes del video completo se renderiza la intro y la primera parada (`--desde/--hasta`) y se le envía a Luis para que la apruebe.
+8. **Final:** `powershell -File src\mezclar.ps1 -Edl final\edl_X.json -Salida final\X_FINAL.mp4`. Después se revisa la hoja de fotogramas cada 8 s y se buscan negros con `blackdetect`.
+9. **Miniatura y textos:** `src/miniatura.py`, cambiando las fotos, y un `TEXTOS_YOUTUBE.txt` con los capítulos sacados de los tiempos de cada `abre()`.
+
+### Reglas de edición
+
+Así se construyeron los EDL de este video, que son la referencia exacta: `final/edl_v3.json`.
+
+**Planos**
+- **Un plano por idea narrada.** Duración media de 3.7 s, con un mínimo de 0.6 s y casi nunca más de 7 s.
+- **Las enumeraciones van en cortes rápidos**, uno por cosa, cortando en el segundo de cada palabra. Ejemplo: "en la nevera, en la mesa de noche, en la billetera, en la tienda" son 4 cortes de 1.1 a 1.3 s.
+- **La imagen muestra lo que se dice en ese momento.** Si se habla de una cifra o una fecha, se ve el lugar o el objeto de la marca.
+- **El zoom lento alterna** entre acercarse y alejarse: 1.0 → 1.07 y 1.07 → 1.0.
+- **Pasado y pérdida en blanco y negro (`#bw`):** cierres, quiebras, "ya no está", "la silla del abuelo quedó vacía".
+- **Mezcla de material:** alrededor de **1 clip de video cada 6 planos**, con unos 35 clips en 14 min. Se usan para ambientes (ciudad aérea, mercado, escaleras, pasillos vacíos) y acciones (comer paleta, caballos corriendo, llaves).
+- **Sin repetir fotos**, salvo en el carrusel de repaso del cierre.
+
+**Estructura de cada parada**
+1. `abre(t, N, 'Marca')`: el número rojo grande, de 2.3 s, con el nombre de la marca debajo en letras grandes. Luego la ficha **FILE** "PARADA N", 2.35 s después.
+2. Fotos de la marca y del contexto, siguiendo la narración.
+3. **Número rojo** (`numero`, de 2.0 a 2.4 s) en cada **año o cifra clave** de la narración: fundación, cierre, precios, cantidades. Entra en el segundo exacto en que se dice la cifra, buscado con `w('cifra', desde, defecto)`.
+4. **Palabra gigante** (`palabra`, de 1.7 a 3.4 s) en la frase emocional más fuerte: más o menos **una cada 60 s**, y siempre en la frase final de la parada. La palabra va en mayúsculas, con la frase completa debajo.
+5. **Nota a máquina** (`nota`) para los **lemas y frases célebres** entre comillas («Siempre te da más», «Listo Medellín, cabina 8»), resaltando de 1 a 3 palabras.
+6. **Escena de papel** (polaroid, foto única o VS), de 6 a 8 s, una o dos por parada. Polaroid para comparaciones o para tres marcas juntas, VS para rivalidades (Konga contra Postobón).
+
+**Intro y cierre**
+- **Intro:** cortes rápidos con objetos cotidianos, la palabra clave del tema y un número con el total de ítems.
+- **Cierre:** el número del total, un carrusel con una foto de cada marca y su número, y la palabra final.
+
+**Textos que se pisan:** dos números o palabras no pueden encimarse; el script lo avisa. Si pasa, se acorta el `dur`.
+
+**Audio:** voz sin pausas y los efectos sintetizados que genera `src/efectos.py` según las capas del EDL. Sin música.
+
 ## Pipeline paso a paso
 
 | # | Paso | Script / comando |

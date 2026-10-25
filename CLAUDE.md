@@ -1,0 +1,1 @@
+Lee README.md completo antes de hacer cualquier cosa en este proyecto: tiene el estado, las reglas de Luis, la receta para un video nuevo y las reglas de edición exactas. Después lee docs/ESTILO_DOCUMENTAL_EXPEDIENTE.md.

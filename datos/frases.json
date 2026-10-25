@@ -1,0 +1,1690 @@
+[
+ {
+  "seccion": "INTRO",
+  "texto": "Hay marcas que uno no escogía: las heredaba.",
+  "i": 0,
+  "s": 0.0,
+  "e": 2.44,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "INTRO",
+  "texto": "Ya estaban en la casa cuando usted llegó.",
+  "i": 1,
+  "s": 2.8,
+  "e": 4.4,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "INTRO",
+  "texto": "En la nevera, en la mesa de noche, en la billetera del papá, en la tienda de la esquina.",
+  "i": 2,
+  "s": 4.74,
+  "e": 9.24,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "INTRO",
+  "texto": "Y un día, sin que nadie avisara, ya no estaban.",
+  "i": 3,
+  "s": 9.66,
+  "e": 12.48,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "INTRO",
+  "texto": "Hoy vamos a hacer una ruta.",
+  "i": 4,
+  "s": 12.8,
+  "e": 13.86,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "INTRO",
+  "texto": "Doce paradas, doce marcas que vivieron en todas las casas de Colombia… y se fueron.",
+  "i": 5,
+  "s": 14.3,
+  "e": 18.68,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "INTRO",
+  "texto": "Unas lo van a hacer reír.",
+  "i": 6,
+  "s": 19.3,
+  "e": 20.68,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "INTRO",
+  "texto": "Otras le van a apretar el pecho.",
+  "i": 7,
+  "s": 20.98,
+  "e": 22.48,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "INTRO",
+  "texto": "Y la última… a esa llegamos juntos.",
+  "i": 8,
+  "s": 22.76,
+  "e": 24.46,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "INTRO",
+  "texto": "Arrancamos.",
+  "i": 9,
+  "s": 24.9,
+  "e": 25.32,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 12 — Los helados de Baloncito (y la paleta Cola de Tigre)",
+  "texto": "Es la una de la tarde.",
+  "i": 10,
+  "s": 25.66,
+  "e": 26.68,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 12 — Los helados de Baloncito (y la paleta Cola de Tigre)",
+  "texto": "Usted tiene ocho años, la camisa del uniforme por fuera, la cara sudada, y en la mano trae las monedas contadas tres veces.",
+  "i": 11,
+  "s": 27.04,
+  "e": 34.68,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 12 — Los helados de Baloncito (y la paleta Cola de Tigre)",
+  "texto": "A la salida del colegio está el carrito de helados, y usted ya sabe lo que va a pedir.",
+  "i": 12,
+  "s": 35.02,
+  "e": 38.42,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 12 — Los helados de Baloncito (y la paleta Cola de Tigre)",
+  "texto": "Ni lo piensa: el helado que viene dentro de un balón de plástico.",
+  "i": 13,
+  "s": 38.78,
+  "e": 41.84,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 12 — Los helados de Baloncito (y la paleta Cola de Tigre)",
+  "texto": "El helado duraba cinco minutos.",
+  "i": 14,
+  "s": 42.12,
+  "e": 43.38,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 12 — Los helados de Baloncito (y la paleta Cola de Tigre)",
+  "texto": "El balón, toda la vida.",
+  "i": 15,
+  "s": 43.88,
+  "e": 45.26,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 12 — Los helados de Baloncito (y la paleta Cola de Tigre)",
+  "texto": "Era el juguete, era la alcancía, era el tesoro.",
+  "i": 16,
+  "s": 45.58,
+  "e": 48.44,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 12 — Los helados de Baloncito (y la paleta Cola de Tigre)",
+  "texto": "Y más de uno cuenta que en su casa todavía hay un balón de esos, ya viejito, sirviendo de matera con una matica sembrada.",
+  "i": 17,
+  "s": 48.76,
+  "e": 54.56,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 12 — Los helados de Baloncito (y la paleta Cola de Tigre)",
+  "texto": "El helado se derritió hace treinta años… y el balón sigue ahí, echando hojas.",
+  "i": 18,
+  "s": 54.88,
+  "e": 58.96,
+  "cobertura": 0.93
+ },
+ {
+  "seccion": "PARADA 12 — Los helados de Baloncito (y la paleta Cola de Tigre)",
+  "texto": "Y lo más bonito: aparecía solo cada cuatro años, cuando llegaba el Mundial, como si él también supiera de fútbol.",
+  "i": 19,
+  "s": 59.32,
+  "e": 64.86,
+  "cobertura": 0.95
+ },
+ {
+  "seccion": "PARADA 12 — Los helados de Baloncito (y la paleta Cola de Tigre)",
+  "texto": "Cuando no alcanzaba para el balón, estaba la compañera fiel: la paleta Cola de Tigre, la de las franjas de colores, la que uno se iba comiendo despacito camino a la casa para que durara más.",
+  "i": 20,
+  "s": 65.1,
+  "e": 74.22,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 12 — Los helados de Baloncito (y la paleta Cola de Tigre)",
+  "texto": "Sabía a premio.",
+  "i": 21,
+  "s": 74.52,
+  "e": 75.36,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 12 — Los helados de Baloncito (y la paleta Cola de Tigre)",
+  "texto": "Sabía a «ya salí».",
+  "i": 22,
+  "s": 75.62,
+  "e": 76.86,
+  "cobertura": 0.5
+ },
+ {
+  "seccion": "PARADA 11 — Betatonio",
+  "texto": "Es viernes.",
+  "i": 23,
+  "s": 77.14,
+  "e": 77.58,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 11 — Betatonio",
+  "texto": "Y si usted creció en Bogotá, el viernes tenía un plan sagrado: ir al videoclub.",
+  "i": 24,
+  "s": 78.0,
+  "e": 81.9,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 11 — Betatonio",
+  "texto": "Betatonio era enorme, lleno de carátulas de colores, y cada quien tenía su pasillo.",
+  "i": 25,
+  "s": 82.54,
+  "e": 86.7,
+  "cobertura": 0.93
+ },
+ {
+  "seccion": "PARADA 11 — Betatonio",
+  "texto": "Unos se iban derecho a acción, otros a comedia… y los valientes, a terror.",
+  "i": 26,
+  "s": 87.12,
+  "e": 91.28,
+  "cobertura": 0.86
+ },
+ {
+  "seccion": "PARADA 11 — Betatonio",
+  "texto": "Los que lo vivieron cuentan que iban con las hermanas o con los amigos del barrio, y que la pelea era por la última copia de la película que todo el mundo quería.",
+  "i": 27,
+  "s": 91.84,
+  "e": 98.58,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 11 — Betatonio",
+  "texto": "El que llegaba de segundo se iba con la que nadie había alquilado.",
+  "i": 28,
+  "s": 98.9,
+  "e": 101.5,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 11 — Betatonio",
+  "texto": "Y había un orgullo que hoy suena a chiste, pero era en serio: ser socio.",
+  "i": 29,
+  "s": 109.14,
+  "e": 112.8,
+  "cobertura": 0.93
+ },
+ {
+  "seccion": "PARADA 11 — Betatonio",
+  "texto": "«Era pupi estar afiliado a Betatonio», dicen todavía, riéndose de ellos mismos.",
+  "i": 30,
+  "s": 113.16,
+  "e": 117.0,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 11 — Betatonio",
+  "texto": "Ahí también se alquilaban los juegos de Nintendo y de Sega, porque comprarlos era un lujo.",
+  "i": 31,
+  "s": 117.32,
+  "e": 121.26,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 11 — Betatonio",
+  "texto": "Y había una ley no escrita que se respetaba con miedo: la cinta se devolvía rebobinada… o se pagaba la multa.",
+  "i": 32,
+  "s": 121.38,
+  "e": 127.14,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 11 — Betatonio",
+  "texto": "Betatonio aguantó 27 años y cerró en 2007, cuando el DVD y la piratería nos robaron el paseo del viernes.",
+  "i": 33,
+  "s": 127.58,
+  "e": 133.34,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 11 — Betatonio",
+  "texto": "En otras ciudades el videoclub tenía otro nombre, pero la escena era la misma: la familia entera, parada frente a un estante, decidiendo junta qué película se llevaba para la casa.",
+  "i": 34,
+  "s": 133.72,
+  "e": 141.94,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 11 — Betatonio",
+  "texto": "Eso no lo ha reemplazado ninguna pantalla.",
+  "i": 35,
+  "s": 142.28,
+  "e": 144.16,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 10 — Gaseosas Konga",
+  "texto": "Con esta le hablo con la verdad por delante, como hablaba la gente de antes: la Konga no le gustaba a todo el mundo.",
+  "i": 36,
+  "s": 144.16,
+  "e": 149.92,
+  "cobertura": 0.96
+ },
+ {
+  "seccion": "PARADA 10 — Gaseosas Konga",
+  "texto": "Era la gaseosa rebelde de los noventa.",
+  "i": 37,
+  "s": 150.22,
+  "e": 151.56,
+  "cobertura": 0.86
+ },
+ {
+  "seccion": "PARADA 10 — Gaseosas Konga",
+  "texto": "Bavaria se la inventó para hacerle la guerra a Postobón, que mandaba en todas las tiendas, y llegó con sabores que en esa época sonaban raros: manzana, pera, mandarina.",
+  "i": 38,
+  "s": 152.22,
+  "e": 160.3,
+  "cobertura": 0.93
+ },
+ {
+  "seccion": "PARADA 10 — Gaseosas Konga",
+  "texto": "Y con una hermanita que muchos recuerdan: la Link.",
+  "i": 39,
+  "s": 160.76,
+  "e": 163.54,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 10 — Gaseosas Konga",
+  "texto": "La publicidad estaba en todas partes, hasta pintada en las paredes de los colegios.",
+  "i": 40,
+  "s": 163.9,
+  "e": 167.22,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 10 — Gaseosas Konga",
+  "texto": "Y mire lo bonito: los que la tomaron la defienden hoy como se defiende un equipo de fútbol, sin pruebas y con el corazón.",
+  "i": 41,
+  "s": 167.58,
+  "e": 173.38,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 10 — Gaseosas Konga",
+  "texto": "«La de manzana era mejor que la de Postobón», y punto, no hay discusión.",
+  "i": 42,
+  "s": 173.38,
+  "e": 176.84,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 10 — Gaseosas Konga",
+  "texto": "Y los que no la quisieron también hablan duro: que sabía a jarabe, que ni se acuerdan de ella.",
+  "i": 43,
+  "s": 177.1,
+  "e": 181.32,
+  "cobertura": 0.95
+ },
+ {
+  "seccion": "PARADA 10 — Gaseosas Konga",
+  "texto": "Con la Konga no había término medio.",
+  "i": 44,
+  "s": 181.64,
+  "e": 183.06,
+  "cobertura": 0.86
+ },
+ {
+  "seccion": "PARADA 10 — Gaseosas Konga",
+  "texto": "Perdió la guerra y se fue calladita, sin despedirse.",
+  "i": 45,
+  "s": 183.38,
+  "e": 185.74,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 10 — Gaseosas Konga",
+  "texto": "Pero por unos años, en este país, hasta la gaseosa del almuerzo era una cuestión de honor.",
+  "i": 46,
+  "s": 186.1,
+  "e": 189.96,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 9 — Granahorrar",
+  "texto": "Para los papás de antes, hablar de «la casa» no era un tema cualquiera.",
+  "i": 47,
+  "s": 190.26,
+  "e": 193.52,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 9 — Granahorrar",
+  "texto": "Era EL tema.",
+  "i": 48,
+  "s": 193.8,
+  "e": 194.7,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 9 — Granahorrar",
+  "texto": "El sueño de toda una vida.",
+  "i": 49,
+  "s": 195.08,
+  "e": 196.08,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 9 — Granahorrar",
+  "texto": "Granahorrar era el banco serio de esa época: sucursal en el barrio, libreta en la mano, y unos caballos que la gente no olvida.",
+  "i": 50,
+  "s": 196.94,
+  "e": 202.42,
+  "cobertura": 0.92
+ },
+ {
+  "seccion": "PARADA 9 — Granahorrar",
+  "texto": "Los que lo vivieron recuerdan un comercial precioso, dirigido por Sergio Cabrera, con una manada de caballos corriendo por en medio de la ciudad.",
+  "i": 51,
+  "s": 202.42,
+  "e": 210.4,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 9 — Granahorrar",
+  "texto": "Y en Cali, cuentan, todavía queda una escultura de caballos que era del banco.",
+  "i": 52,
+  "s": 211.04,
+  "e": 214.78,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 9 — Granahorrar",
+  "texto": "Pero si está en esta ruta es por las historias que se repiten en las familias.",
+  "i": 53,
+  "s": 215.48,
+  "e": 219.3,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 9 — Granahorrar",
+  "texto": "Como la de unos papás que compraron su casa con Granahorrar en 1975 y la pagaron durante quince años, cuota por cuota, hasta que en 1990 hicieron el último pago: cinco mil pesos.",
+  "i": 54,
+  "s": 219.6,
+  "e": 232.04,
+  "cobertura": 0.91
+ },
+ {
+  "seccion": "PARADA 9 — Granahorrar",
+  "texto": "Quince años para poder decir: «esta casa es nuestra».",
+  "i": 55,
+  "s": 232.78,
+  "e": 235.94,
+  "cobertura": 0.89
+ },
+ {
+  "seccion": "PARADA 9 — Granahorrar",
+  "texto": "Y estaban las abuelas, que iban a la sucursal con el nieto de la mano a guardar sus ahorritos, como quien guarda una promesa.",
+  "i": 56,
+  "s": 236.56,
+  "e": 242.74,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 9 — Granahorrar",
+  "texto": "También hay que decirlo, y se dice con respeto: para muchas familias este nombre duele.",
+  "i": 57,
+  "s": 243.52,
+  "e": 248.3,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 9 — Granahorrar",
+  "texto": "La época del UPAC hizo que casas como esas terminaran costando mucho más de lo que valían.",
+  "i": 58,
+  "s": 248.58,
+  "e": 252.78,
+  "cobertura": 0.88
+ },
+ {
+  "seccion": "PARADA 9 — Granahorrar",
+  "texto": "Granahorrar fue intervenido en 1998 y años después quedó en manos del BBVA.",
+  "i": 59,
+  "s": 254.04,
+  "e": 258.3,
+  "cobertura": 0.92
+ },
+ {
+  "seccion": "PARADA 9 — Granahorrar",
+  "texto": "Por eso esta parada es corta.",
+  "i": 60,
+  "s": 258.9,
+  "e": 260.16,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 9 — Granahorrar",
+  "texto": "No todo lo que se fue era dulce.",
+  "i": 61,
+  "s": 260.16,
+  "e": 262.18,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 9 — Granahorrar",
+  "texto": "Pero todo lo que se fue era nuestro.",
+  "i": 62,
+  "s": 262.48,
+  "e": 263.86,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 8 — Telecom y sus cabinas",
+  "texto": "«Voy al Telecom».",
+  "i": 63,
+  "s": 264.52,
+  "e": 265.44,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 8 — Telecom y sus cabinas",
+  "texto": "Así se decía.",
+  "i": 64,
+  "s": 265.78,
+  "e": 266.3,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 8 — Telecom y sus cabinas",
+  "texto": "Nadie decía «voy a llamar por teléfono»: uno iba al Telecom, como iba a la tienda o a misa.",
+  "i": 65,
+  "s": 266.62,
+  "e": 271.34,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 8 — Telecom y sus cabinas",
+  "texto": "Era un lugar, era un plan, era casi un paseo.",
+  "i": 66,
+  "s": 271.56,
+  "e": 274.18,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 8 — Telecom y sus cabinas",
+  "texto": "Porque antes de que el teléfono cupiera en el bolsillo, llamar era una ceremonia.",
+  "i": 67,
+  "s": 274.94,
+  "e": 278.74,
+  "cobertura": 0.93
+ },
+ {
+  "seccion": "PARADA 8 — Telecom y sus cabinas",
+  "texto": "En los pueblos se hacía fila frente a las cabinas, esperando el turno para hablar con Bogotá.",
+  "i": 68,
+  "s": 279.02,
+  "e": 283.04,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 8 — Telecom y sus cabinas",
+  "texto": "Hay quienes cuentan que bajaban a caballo con el papá, desde la finca hasta el pueblo, solo para hacer esa llamada.",
+  "i": 69,
+  "s": 283.34,
+  "e": 288.84,
+  "cobertura": 0.95
+ },
+ {
+  "seccion": "PARADA 8 — Telecom y sus cabinas",
+  "texto": "El minuto costaba dos mil pesos, así que tocaba pensar bien qué decir… y decirlo a los gritos, porque la llamada se oía bajita, lluviosa, como si la voz viniera nadando desde muy lejos.",
+  "i": 70,
+  "s": 288.84,
+  "e": 298.76,
+  "cobertura": 0.97
+ },
+ {
+  "seccion": "PARADA 8 — Telecom y sus cabinas",
+  "texto": "Los niños de esa época nos sabíamos de memoria los indicativos de todos los departamentos.",
+  "i": 71,
+  "s": 299.48,
+  "e": 303.54,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 8 — Telecom y sus cabinas",
+  "texto": "Y en la televisión, unas hormiguitas rosadas nos cantaban «Aló, Mamá», y nos hacían reír y llorar al mismo tiempo, porque todos teníamos a alguien lejos a quien llamar.",
+  "i": 72,
+  "s": 303.92,
+  "e": 312.4,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 8 — Telecom y sus cabinas",
+  "texto": "De las cabinas con operadora quedó hasta un dicho: «listo Medellín, cabina 8».",
+  "i": 73,
+  "s": 312.64,
+  "e": 316.74,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 8 — Telecom y sus cabinas",
+  "texto": "Y lo corrijo aquí mismo, porque los que lo vivieron siempre lo corrigen: Telecom no se quebró.",
+  "i": 74,
+  "s": 317.1,
+  "e": 321.8,
+  "cobertura": 0.94
+ },
+ {
+  "seccion": "PARADA 8 — Telecom y sus cabinas",
+  "texto": "En 2003 el gobierno la liquidó, y lo que quedó terminó en otras manos.",
+  "i": 75,
+  "s": 322.06,
+  "e": 325.36,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 8 — Telecom y sus cabinas",
+  "texto": "Lo que se acabó no fue una empresa.",
+  "i": 76,
+  "s": 326.06,
+  "e": 327.12,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 8 — Telecom y sus cabinas",
+  "texto": "Se acabó la fila, la cabina, la moneda… y esa forma tan nuestra de extrañar a la familia a gritos, para que se oyera al otro lado del país.",
+  "i": 77,
+  "s": 327.48,
+  "e": 335.76,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 7 — Almacenes Caravana",
+  "texto": "Medellín, pleno centro, esquina de Carabobo con Pichincha.",
+  "i": 78,
+  "s": 336.56,
+  "e": 339.92,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 7 — Almacenes Caravana",
+  "texto": "Ahí quedaba Caravana.",
+  "i": 79,
+  "s": 340.24,
+  "e": 341.0,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 7 — Almacenes Caravana",
+  "texto": "Hay gente que todavía recita su lema completo, como un poema corto: «Caravana, el gigante de los precios enanos».",
+  "i": 80,
+  "s": 341.36,
+  "e": 346.62,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 7 — Almacenes Caravana",
+  "texto": "Pregunte en Antioquia y verá que siempre sale en la misma frase con el Ley y con el Tía: los tres almacenes que Medellín no ha podido olvidar.",
+  "i": 81,
+  "s": 347.64,
+  "e": 354.36,
+  "cobertura": 0.96
+ },
+ {
+  "seccion": "PARADA 7 — Almacenes Caravana",
+  "texto": "Caravana tenía una maravilla: en 1955 instaló las primeras escaleras eléctricas de Medellín.",
+  "i": 82,
+  "s": 354.98,
+  "e": 360.42,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 7 — Almacenes Caravana",
+  "texto": "Hoy eso no impresiona a nadie… pero imagínese ser niño en esa época.",
+  "i": 83,
+  "s": 360.64,
+  "e": 363.58,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 7 — Almacenes Caravana",
+  "texto": "Ir a Caravana no era ir a comprar: era ir a montar en las escaleras.",
+  "i": 84,
+  "s": 363.96,
+  "e": 366.88,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 7 — Almacenes Caravana",
+  "texto": "Subir y bajar, subir y bajar, mientras la mamá hacía sus vueltas en los «Lunes de ganga».",
+  "i": 85,
+  "s": 367.28,
+  "e": 372.22,
+  "cobertura": 0.94
+ },
+ {
+  "seccion": "PARADA 7 — Almacenes Caravana",
+  "texto": "Caravana cerró en 1998, y su época de oro fue un poquito antes que la de otras paradas de esta ruta.",
+  "i": 86,
+  "s": 372.64,
+  "e": 378.3,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 7 — Almacenes Caravana",
+  "texto": "Puede que usted no la alcanzara a vivir.",
+  "i": 87,
+  "s": 378.58,
+  "e": 379.66,
+  "cobertura": 0.88
+ },
+ {
+  "seccion": "PARADA 7 — Almacenes Caravana",
+  "texto": "Pero su papá sí.",
+  "i": 88,
+  "s": 380.04,
+  "e": 380.56,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 7 — Almacenes Caravana",
+  "texto": "Y su abuelo, seguro.",
+  "i": 89,
+  "s": 380.86,
+  "e": 381.82,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 7 — Almacenes Caravana",
+  "texto": "Y si algún día le pregunta, prepárese: se le van a aguar los ojos hablándole de unas escaleras eléctricas, como si le estuviera hablando de un parque de diversiones.",
+  "i": 90,
+  "s": 382.22,
+  "e": 389.6,
+  "cobertura": 0.9
+ },
+ {
+  "seccion": "PARADA 7 — Almacenes Caravana",
+  "texto": "Porque eso era: el parque de diversiones de los que no tenían para parque de diversiones.",
+  "i": 91,
+  "s": 390.0,
+  "e": 393.66,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 6 — Cervecería Leona y Malta Leona",
+  "texto": "Le pinto el domingo de antes, a ver si se reconoce.",
+  "i": 92,
+  "s": 394.3,
+  "e": 396.48,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 6 — Cervecería Leona y Malta Leona",
+  "texto": "La casa llena, el televisor prendido con el fútbol, el abuelo en su silla con una cerveza Leona bien fría… y usted, de niño, sentado en el piso con una Malta Leona en la mano, sintiéndose grande.",
+  "i": 93,
+  "s": 396.72,
+  "e": 406.38,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 6 — Cervecería Leona y Malta Leona",
+  "texto": "Porque la Malta venía en un envase oscuro, serio, de gente mayor, y tomársela era jugar a ser adulto sin que nadie se burlara.",
+  "i": 94,
+  "s": 406.7,
+  "e": 412.36,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 6 — Cervecería Leona y Malta Leona",
+  "texto": "Leona nació en Tocancipá, en plena guerra de las cervezas de los noventa, y se metió en la vida de todos: patrocinaba el fútbol, estaba en cada tienda, y hasta el juego de rana tenía la cabeza de una leona.",
+  "i": 95,
+  "s": 412.64,
+  "e": 423.5,
+  "cobertura": 0.88
+ },
+ {
+  "seccion": "PARADA 6 — Cervecería Leona y Malta Leona",
+  "texto": "Y cómo olvidar el comercial animado que nos tenía engañados, y felices de estar engañados: creíamos que si uno se tomaba quién sabe cuántas maltas, se convertía en el personaje.",
+  "i": 96,
+  "s": 423.8,
+  "e": 430.9,
+  "cobertura": 0.97
+ },
+ {
+  "seccion": "PARADA 6 — Cervecería Leona y Malta Leona",
+  "texto": "Más de uno se las tomó todas esperando el milagro.",
+  "i": 97,
+  "s": 430.9,
+  "e": 433.3,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 6 — Cervecería Leona y Malta Leona",
+  "texto": "Antes de que me lo corrijan en los comentarios, lo digo yo: la Malta Leona volvió hace unos años a las tiendas.",
+  "i": 98,
+  "s": 433.52,
+  "e": 437.66,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 6 — Cervecería Leona y Malta Leona",
+  "texto": "Sí.",
+  "i": 99,
+  "s": 437.88,
+  "e": 437.96,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 6 — Cervecería Leona y Malta Leona",
+  "texto": "Pero pruébela… y dígame si es la misma.",
+  "i": 100,
+  "s": 438.22,
+  "e": 440.1,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 6 — Cervecería Leona y Malta Leona",
+  "texto": "Los que la tomamos de niños sabemos la respuesta.",
+  "i": 101,
+  "s": 440.46,
+  "e": 442.04,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 6 — Cervecería Leona y Malta Leona",
+  "texto": "La que no volvió fue la cerveza.",
+  "i": 102,
+  "s": 442.64,
+  "e": 443.52,
+  "cobertura": 0.57
+ },
+ {
+  "seccion": "PARADA 6 — Cervecería Leona y Malta Leona",
+  "texto": "Y esa silla del abuelo quedó vacía.",
+  "i": 103,
+  "s": 443.8,
+  "e": 445.16,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 6 — Cervecería Leona y Malta Leona",
+  "texto": "Si este viaje le está gustando, suscríbase y active la campanita: cada dos días sale una ruta nueva.",
+  "i": 104,
+  "s": 445.46,
+  "e": 449.98,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 6 — Cervecería Leona y Malta Leona",
+  "texto": "Y vamos con la mitad que falta, que viene la más bonita.",
+  "i": 105,
+  "s": 450.4,
+  "e": 452.12,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 5 — Almacenes La 14",
+  "texto": "Y ahora sí, déjeme llevarlo a mi tierra.",
+  "i": 106,
+  "s": 452.42,
+  "e": 453.78,
+  "cobertura": 0.88
+ },
+ {
+  "seccion": "PARADA 5 — Almacenes La 14",
+  "texto": "A Cali.",
+  "i": 107,
+  "s": 454.16,
+  "e": 454.6,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 5 — Almacenes La 14",
+  "texto": "Porque hablarle de La 14 a un caleño es delicado: no es un almacén.",
+  "i": 108,
+  "s": 454.82,
+  "e": 458.2,
+  "cobertura": 0.93
+ },
+ {
+  "seccion": "PARADA 5 — Almacenes La 14",
+  "texto": "Es un familiar.",
+  "i": 109,
+  "s": 458.44,
+  "e": 458.96,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 5 — Almacenes La 14",
+  "texto": "Nació en 1964, en la calle 14, y todo el Valle se sabe su lema de memoria: «¡Siempre te da más!».",
+  "i": 110,
+  "s": 458.96,
+  "e": 465.14,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 5 — Almacenes La 14",
+  "texto": "Pero La 14 no se explica con lemas.",
+  "i": 111,
+  "s": 465.44,
+  "e": 466.98,
+  "cobertura": 0.88
+ },
+ {
+  "seccion": "PARADA 5 — Almacenes La 14",
+  "texto": "Se explica con domingos.",
+  "i": 112,
+  "s": 467.26,
+  "e": 468.28,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 5 — Almacenes La 14",
+  "texto": "Con los juegos mecánicos de La 14 de Calima, el premio por portarse bien mientras se hacía el mercado.",
+  "i": 113,
+  "s": 468.48,
+  "e": 472.78,
+  "cobertura": 0.89
+ },
+ {
+  "seccion": "PARADA 5 — Almacenes La 14",
+  "texto": "Con los buñuelos con Pepsi en el segundo piso de la del centro.",
+  "i": 114,
+  "s": 473.16,
+  "e": 475.56,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 5 — Almacenes La 14",
+  "texto": "Con las abuelas que, a punta de cupones, les compraban a los nietos la ropa de diciembre.",
+  "i": 115,
+  "s": 475.88,
+  "e": 479.86,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 5 — Almacenes La 14",
+  "texto": "Y se explica con una historia que me llegó al alma: una mamá caleña contó que vendiéndole cilantro a La 14 hizo su casa y sacó adelante a cinco hijos.",
+  "i": 116,
+  "s": 480.12,
+  "e": 487.18,
+  "cobertura": 0.97
+ },
+ {
+  "seccion": "PARADA 5 — Almacenes La 14",
+  "texto": "Piense en eso.",
+  "i": 117,
+  "s": 487.74,
+  "e": 487.98,
+  "cobertura": 0.33
+ },
+ {
+  "seccion": "PARADA 5 — Almacenes La 14",
+  "texto": "Un almacén que le compraba el cilantro a la señora del barrio… y esa señora construyó su vida.",
+  "i": 118,
+  "s": 487.98,
+  "e": 492.26,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 5 — Almacenes La 14",
+  "texto": "El final fue de los que duelen.",
+  "i": 119,
+  "s": 492.54,
+  "e": 493.54,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 5 — Almacenes La 14",
+  "texto": "En 2021 llegó la liquidación.",
+  "i": 120,
+  "s": 493.78,
+  "e": 495.2,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 5 — Almacenes La 14",
+  "texto": "Hay quienes cuentan que entraron por última vez y vieron los pasillos vacíos, con las luces titilando… y que su papá, que trabajó años vendiendo los bonos de los juegos mecánicos, no fue capaz de entrar.",
+  "i": 121,
+  "s": 495.48,
+  "e": 505.44,
+  "cobertura": 0.92
+ },
+ {
+  "seccion": "PARADA 5 — Almacenes La 14",
+  "texto": "Se quedó afuera.",
+  "i": 122,
+  "s": 505.78,
+  "e": 506.3,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 5 — Almacenes La 14",
+  "texto": "Para el resto de Colombia, La 14 fue un almacén regional.",
+  "i": 123,
+  "s": 506.58,
+  "e": 509.16,
+  "cobertura": 0.91
+ },
+ {
+  "seccion": "PARADA 5 — Almacenes La 14",
+  "texto": "Para el Valle, fue la casa de todos.",
+  "i": 124,
+  "s": 509.48,
+  "e": 510.88,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 5 — Almacenes La 14",
+  "texto": "Y las casas, cuando se caen, no se olvidan: se lloran.",
+  "i": 125,
+  "s": 511.32,
+  "e": 514.36,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 4 — Chupi Plum",
+  "texto": "Esta parada empieza con un sonido.",
+  "i": 126,
+  "s": 514.56,
+  "e": 516.44,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 4 — Chupi Plum",
+  "texto": "Escuche: ¡PLUM!",
+  "i": 127,
+  "s": 516.44,
+  "e": 517.48,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 4 — Chupi Plum",
+  "texto": "Si sonrió, es porque estuvo en un recreo a comienzos de los años 2000.",
+  "i": 128,
+  "s": 517.76,
+  "e": 520.76,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 4 — Chupi Plum",
+  "texto": "Así se abría el Chupi Plum.",
+  "i": 129,
+  "s": 521.22,
+  "e": 522.34,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 4 — Chupi Plum",
+  "texto": "Nada de abrirlo con cuidadito: el ritual era reventar el empaque con la palma de la mano, y si no sonaba duro, no valía.",
+  "i": 130,
+  "s": 522.62,
+  "e": 529.12,
+  "cobertura": 0.92
+ },
+ {
+  "seccion": "PARADA 4 — Chupi Plum",
+  "texto": "Era la chupeta chicle de Quala, y por dentro traía el verdadero tesoro: una calcomanía que se pegaba en la piel como tatuaje.",
+  "i": 131,
+  "s": 529.42,
+  "e": 535.16,
+  "cobertura": 0.96
+ },
+ {
+  "seccion": "PARADA 4 — Chupi Plum",
+  "texto": "Nuestros brazos eran una galería, y entre más tatuajes, más respeto en el patio.",
+  "i": 132,
+  "s": 535.48,
+  "e": 539.1,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 4 — Chupi Plum",
+  "texto": "Estaba el álbum, que se llenaba lámina por lámina, y el reto de los valientes: aguantarse el Chupi más ácido, el «Desafío», sin hacer ni una mueca.",
+  "i": 133,
+  "s": 539.58,
+  "e": 547.44,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 4 — Chupi Plum",
+  "texto": "El Chupi Plum original, el del tatuaje y el ¡PLUM!, un día simplemente ya no estaba en la tienda.",
+  "i": 134,
+  "s": 547.7,
+  "e": 552.08,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 4 — Chupi Plum",
+  "texto": "Nadie anunció nada.",
+  "i": 135,
+  "s": 552.36,
+  "e": 553.16,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 4 — Chupi Plum",
+  "texto": "Y hay gente que todavía guarda la cajita vacía, blanca y descolorida por los años.",
+  "i": 136,
+  "s": 553.46,
+  "e": 557.24,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 4 — Chupi Plum",
+  "texto": "Yo la entiendo.",
+  "i": 137,
+  "s": 557.66,
+  "e": 558.16,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 4 — Chupi Plum",
+  "texto": "No están guardando una caja.",
+  "i": 138,
+  "s": 558.48,
+  "e": 559.42,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 4 — Chupi Plum",
+  "texto": "Están guardando el recreo.",
+  "i": 139,
+  "s": 559.78,
+  "e": 560.7,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 4 — Chupi Plum",
+  "texto": "De este señor volvemos a hablar en la próxima ruta, la de los dulces del colegio.",
+  "i": 140,
+  "s": 560.94,
+  "e": 564.64,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 4 — Chupi Plum",
+  "texto": "Porque esta fue su historia como marca… pero su historia en el recreo, entre amigos, es otra.",
+  "i": 141,
+  "s": 564.86,
+  "e": 568.82,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 4 — Chupi Plum",
+  "texto": "Y es preciosa.",
+  "i": 142,
+  "s": 568.82,
+  "e": 569.68,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 3 — Almacenes Tía",
+  "texto": "Hay un olor que ya no existe en Colombia: el del centro de la ciudad a café recién molido y empanadas calientes.",
+  "i": 143,
+  "s": 569.98,
+  "e": 574.9,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 3 — Almacenes Tía",
+  "texto": "Ese era el olor del Tía.",
+  "i": 144,
+  "s": 575.24,
+  "e": 576.54,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 3 — Almacenes Tía",
+  "texto": "Almacenes Tía nació en 1940, en Bogotá, y su nombre era una sigla bien seria: Tiendas Industriales Asociadas.",
+  "i": 145,
+  "s": 577.5,
+  "e": 583.34,
+  "cobertura": 0.89
+ },
+ {
+  "seccion": "PARADA 3 — Almacenes Tía",
+  "texto": "Pero nadie lo quería por serio.",
+  "i": 146,
+  "s": 583.8,
+  "e": 584.82,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 3 — Almacenes Tía",
+  "texto": "Lo queríamos porque ahí la mamá hacía el mercado, ahí nos compraban los primeros cuadernos y lápices de la vida, ahí estaba la ropa de diciembre.",
+  "i": 147,
+  "s": 585.16,
+  "e": 591.68,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 3 — Almacenes Tía",
+  "texto": "Y el Tía guarda una de las historias más lindas de la Colombia de antes: las sabatinas.",
+  "i": 148,
+  "s": 592.04,
+  "e": 596.96,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 3 — Almacenes Tía",
+  "texto": "Niñas de catorce años que trabajaban sábados y domingos, y que en la noche recibían su paguito, cuentan que eran 365 pesos, y salían corriendo a comprarse los zapatos y la ropa que en la casa no alcanzaban.",
+  "i": 149,
+  "s": 597.4,
+  "e": 608.32,
+  "cobertura": 0.97
+ },
+ {
+  "seccion": "PARADA 3 — Almacenes Tía",
+  "texto": "Para miles de mujeres de este país, el primer sueldo se lo pagó el Tía.",
+  "i": 150,
+  "s": 608.6,
+  "e": 611.76,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 3 — Almacenes Tía",
+  "texto": "Y la cafetería… ay, la cafetería.",
+  "i": 151,
+  "s": 612.1,
+  "e": 614.02,
+  "cobertura": 0.83
+ },
+ {
+  "seccion": "PARADA 3 — Almacenes Tía",
+  "texto": "En el Tía de la Décima, en Bogotá, las familias se daban cita los sábados al mediodía: la mamá y los niños comiendo buñuelos mientras llegaba el papá.",
+  "i": 152,
+  "s": 614.3,
+  "e": 621.0,
+  "cobertura": 0.96
+ },
+ {
+  "seccion": "PARADA 3 — Almacenes Tía",
+  "texto": "Y aquí va el dicho que la gente le regaló al Tía y que lo dice todo: «donde compra como pobre y come como rico».",
+  "i": 153,
+  "s": 621.26,
+  "e": 626.42,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 3 — Almacenes Tía",
+  "texto": "El Tía cerró en Colombia el 23 de noviembre de 2017.",
+  "i": 154,
+  "s": 626.82,
+  "e": 629.96,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 3 — Almacenes Tía",
+  "texto": "Y en Fontibón, cuentan los vecinos, la gente fue a dejarle coronas de rosas y velas en la puerta.",
+  "i": 155,
+  "s": 630.44,
+  "e": 635.0,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 3 — Almacenes Tía",
+  "texto": "Como en un funeral.",
+  "i": 156,
+  "s": 635.38,
+  "e": 635.88,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 3 — Almacenes Tía",
+  "texto": "Porque eso fue.",
+  "i": 157,
+  "s": 636.42,
+  "e": 636.7,
+  "cobertura": 0.67
+ },
+ {
+  "seccion": "PARADA 3 — Almacenes Tía",
+  "texto": "Si algún día viaja a Ecuador o a Uruguay, se lo va a encontrar vivito.",
+  "i": 158,
+  "s": 637.22,
+  "e": 640.26,
+  "cobertura": 0.93
+ },
+ {
+  "seccion": "PARADA 3 — Almacenes Tía",
+  "texto": "El Tía no desapareció del mundo.",
+  "i": 159,
+  "s": 641.04,
+  "e": 642.14,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 3 — Almacenes Tía",
+  "texto": "El que se fue fue el nuestro.",
+  "i": 160,
+  "s": 642.46,
+  "e": 643.24,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 2 — Almacenes Ley",
+  "texto": "Si el Tía era la mamá, el Ley era la casa entera.",
+  "i": 161,
+  "s": 643.88,
+  "e": 646.6,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 2 — Almacenes Ley",
+  "texto": "Y antes de seguir, una corrección que los que lo vivimos hacemos con el alma: se llamaba LEY.",
+  "i": 162,
+  "s": 646.9,
+  "e": 651.8,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 2 — Almacenes Ley",
+  "texto": "A secas.",
+  "i": 163,
+  "s": 651.8,
+  "e": 652.88,
+  "cobertura": 0.0
+ },
+ {
+  "seccion": "PARADA 2 — Almacenes Ley",
+  "texto": "Nunca «El Ley».",
+  "i": 164,
+  "s": 652.88,
+  "e": 653.72,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 2 — Almacenes Ley",
+  "texto": "Eran las iniciales de su fundador, Luis Eduardo Yepes, que lo creó en 1922.",
+  "i": 165,
+  "s": 653.72,
+  "e": 658.14,
+  "cobertura": 0.93
+ },
+ {
+  "seccion": "PARADA 2 — Almacenes Ley",
+  "texto": "Pero para nosotros no era una sigla.",
+  "i": 166,
+  "s": 658.6,
+  "e": 659.84,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 2 — Almacenes Ley",
+  "texto": "Era EL almacén.",
+  "i": 167,
+  "s": 660.14,
+  "e": 661.04,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 2 — Almacenes Ley",
+  "texto": "El Ley era el viaje.",
+  "i": 168,
+  "s": 661.34,
+  "e": 662.0,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 2 — Almacenes Ley",
+  "texto": "Los niños de los pueblos esperábamos diciembre para ir a la ciudad, ver ese aviso gigante frente al parque y entrar a sentir, por primera vez en la vida, el aire acondicionado.",
+  "i": 169,
+  "s": 662.42,
+  "e": 669.9,
+  "cobertura": 0.94
+ },
+ {
+  "seccion": "PARADA 2 — Almacenes Ley",
+  "texto": "Íbamos agarrados de la mano de la mamá, con miedo de perdernos, mirando embobados la máquina donde los perros calientes daban vueltas y vueltas, sabiendo que eran muy caros para nosotros.",
+  "i": 170,
+  "s": 670.28,
+  "e": 678.62,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 2 — Almacenes Ley",
+  "texto": "Comprábamos junto a la caja un librito miniatura de cien pesos, como si fuera un tesoro.",
+  "i": 171,
+  "s": 679.16,
+  "e": 683.2,
+  "cobertura": 0.94
+ },
+ {
+  "seccion": "PARADA 2 — Almacenes Ley",
+  "texto": "Y al final, el premio: las onces en la cafetería.",
+  "i": 172,
+  "s": 683.2,
+  "e": 685.92,
+  "cobertura": 0.9
+ },
+ {
+  "seccion": "PARADA 2 — Almacenes Ley",
+  "texto": "En el Ley también le pasó la vida a mucha gente.",
+  "i": 173,
+  "s": 686.16,
+  "e": 688.28,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 2 — Almacenes Ley",
+  "texto": "Hay una historia que parece cuento: la supervisora del almacén, que ganaba 57 pesos y después 65, y el vigilante de la puerta… terminaron casados.",
+  "i": 174,
+  "s": 688.56,
+  "e": 697.44,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 2 — Almacenes Ley",
+  "texto": "Se enamoraron entre esos pasillos.",
+  "i": 175,
+  "s": 697.86,
+  "e": 699.16,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 2 — Almacenes Ley",
+  "texto": "Y estaba Don Julio.",
+  "i": 176,
+  "s": 699.84,
+  "e": 700.64,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 2 — Almacenes Ley",
+  "texto": "Todo el país esperaba julio, porque llegaba Don Julio con las ofertas, y hacer la fila para entrar era parte de la fiesta.",
+  "i": 177,
+  "s": 700.9,
+  "e": 706.48,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 2 — Almacenes Ley",
+  "texto": "El Ley no quebró, y tal vez por eso dolió más: se fue despidiendo de a poquito.",
+  "i": 178,
+  "s": 707.06,
+  "e": 710.78,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 2 — Almacenes Ley",
+  "texto": "Tienda por tienda, año tras año, se fue volviendo Éxito, hasta que en 2012 se convirtió el último.",
+  "i": 179,
+  "s": 711.28,
+  "e": 717.28,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 2 — Almacenes Ley",
+  "texto": "No hubo funeral, como el del Tía.",
+  "i": 180,
+  "s": 717.84,
+  "e": 719.26,
+  "cobertura": 0.86
+ },
+ {
+  "seccion": "PARADA 2 — Almacenes Ley",
+  "texto": "Hubo una década entera de adioses chiquitos.",
+  "i": 181,
+  "s": 719.82,
+  "e": 721.64,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 1 — Conavi, la abejita",
+  "texto": "Llegamos a la última parada.",
+  "i": 182,
+  "s": 722.32,
+  "e": 723.32,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 1 — Conavi, la abejita",
+  "texto": "Y no es un almacén: es una abejita amarilla que vivía en la mesa de noche de media Colombia.",
+  "i": 183,
+  "s": 723.72,
+  "e": 727.86,
+  "cobertura": 0.95
+ },
+ {
+  "seccion": "PARADA 1 — Conavi, la abejita",
+  "texto": "Conavi nació en 1974, en Medellín, como banco de ahorro y vivienda, de esos serios, de adultos.",
+  "i": 184,
+  "s": 729.04,
+  "e": 734.58,
+  "cobertura": 0.82
+ },
+ {
+  "seccion": "PARADA 1 — Conavi, la abejita",
+  "texto": "Pero su abejita hizo lo que ningún banco ha vuelto a hacer: hablarles a los niños.",
+  "i": 185,
+  "s": 734.9,
+  "e": 738.5,
+  "cobertura": 0.94
+ },
+ {
+  "seccion": "PARADA 1 — Conavi, la abejita",
+  "texto": "Nos abrió una cuenta siendo niños, nos regaló alcancías, libros y morrales, y en diciembre nos daba natilla en la sucursal.",
+  "i": 186,
+  "s": 738.92,
+  "e": 745.52,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 1 — Conavi, la abejita",
+  "texto": "Una mamá lo contó como se cuentan las cosas que no se olvidan: su bebé, de tanto ver los comerciales, aprendió a decir «abejita Conavi» entre sus primeras palabras, sentado en el carro, señalando los locales de la calle.",
+  "i": 187,
+  "s": 746.08,
+  "e": 756.66,
+  "cobertura": 0.92
+ },
+ {
+  "seccion": "PARADA 1 — Conavi, la abejita",
+  "texto": "¿Y la alcancía?",
+  "i": 188,
+  "s": 757.22,
+  "e": 757.86,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 1 — Conavi, la abejita",
+  "texto": "Era un mueble más de la casa.",
+  "i": 189,
+  "s": 758.18,
+  "e": 759.18,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 1 — Conavi, la abejita",
+  "texto": "Y los que la tuvimos nos acordamos del detalle con las manos: cuando salieron las monedas nuevas de mil, no cabían por la ranura… y tocaba agrandarla con un cuchillo, despacito, para no romperla.",
+  "i": 190,
+  "s": 759.56,
+  "e": 768.86,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 1 — Conavi, la abejita",
+  "texto": "Así, moneda por moneda, aprendimos a ahorrar.",
+  "i": 191,
+  "s": 769.12,
+  "e": 771.62,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 1 — Conavi, la abejita",
+  "texto": "Su canción la tenemos en la cabeza desde los partidos de fútbol: «Tiro de esquina… tarjeta débito Conavi… úsala en cada esquina».",
+  "i": 192,
+  "s": 772.16,
+  "e": 778.36,
+  "cobertura": 0.91
+ },
+ {
+  "seccion": "PARADA 1 — Conavi, la abejita",
+  "texto": "Y su promesa era de familia: «Conavi quiere a la gente».",
+  "i": 193,
+  "s": 778.66,
+  "e": 781.28,
+  "cobertura": 0.73
+ },
+ {
+  "seccion": "PARADA 1 — Conavi, la abejita",
+  "texto": "En 2005, Conavi se unió con Bancolombia y la abejita se apagó.",
+  "i": 194,
+  "s": 781.9,
+  "e": 785.38,
+  "cobertura": 0.83
+ },
+ {
+  "seccion": "PARADA 1 — Conavi, la abejita",
+  "texto": "Hay quienes recuerdan el día exacto en que el banco les cortó la tarjeta vencida de Conavi, como quien pierde un documento de la infancia… y por eso se negaron a entregar la de la hermana.",
+  "i": 195,
+  "s": 785.66,
+  "e": 794.56,
+  "cobertura": 0.92
+ },
+ {
+  "seccion": "PARADA 1 — Conavi, la abejita",
+  "texto": "Esa se quedó en la casa.",
+  "i": 196,
+  "s": 794.86,
+  "e": 795.88,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 1 — Conavi, la abejita",
+  "texto": "Pero esta historia tiene final feliz: la Navidad pasada, Bancolombia revivió a la abejita en una tarjeta.",
+  "i": 197,
+  "s": 796.24,
+  "e": 801.9,
+  "cobertura": 0.88
+ },
+ {
+  "seccion": "PARADA 1 — Conavi, la abejita",
+  "texto": "Y media Colombia se emocionó.",
+  "i": 198,
+  "s": 802.16,
+  "e": 803.48,
+  "cobertura": 0.8
+ },
+ {
+  "seccion": "PARADA 1 — Conavi, la abejita",
+  "texto": "No por un banco.",
+  "i": 199,
+  "s": 803.74,
+  "e": 804.34,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "PARADA 1 — Conavi, la abejita",
+  "texto": "Por una abejita.",
+  "i": 200,
+  "s": 804.76,
+  "e": 804.94,
+  "cobertura": 0.67
+ },
+ {
+  "seccion": "PARADA 1 — Conavi, la abejita",
+  "texto": "Porque hay marcas que se quedan en la tienda… y hay otras que se quedan a vivir en la familia.",
+  "i": 201,
+  "s": 805.74,
+  "e": 809.1,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "CIERRE",
+  "texto": "Doce paradas.",
+  "i": 202,
+  "s": 809.44,
+  "e": 810.1,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "CIERRE",
+  "texto": "Doce marcas.",
+  "i": 203,
+  "s": 810.56,
+  "e": 811.3,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "CIERRE",
+  "texto": "Y una sola historia: la de nuestras casas y nuestra gente.",
+  "i": 204,
+  "s": 811.76,
+  "e": 814.46,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "CIERRE",
+  "texto": "Ahora le toca a usted.",
+  "i": 205,
+  "s": 814.74,
+  "e": 815.42,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "CIERRE",
+  "texto": "Cuéntenos en los comentarios cuál de estas marcas vivió en su casa, cuál nos faltó en la ruta y qué recuerdo le despertó este viaje.",
+  "i": 206,
+  "s": 815.8,
+  "e": 821.84,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "CIERRE",
+  "texto": "De esas historias suyas nacen las próximas rutas.",
+  "i": 207,
+  "s": 822.14,
+  "e": 824.16,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "CIERRE",
+  "texto": "La siguiente ya tiene destino: la tienda del colegio y los dulces que comprábamos con monedas.",
+  "i": 208,
+  "s": 824.54,
+  "e": 829.16,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "CIERRE",
+  "texto": "Suscríbase para que no se la pierda.",
+  "i": 209,
+  "s": 829.5,
+  "e": 830.74,
+  "cobertura": 1.0
+ },
+ {
+  "seccion": "CIERRE",
+  "texto": "Nos vemos en el pasado.",
+  "i": 210,
+  "s": 830.92,
+  "e": 831.74,
+  "cobertura": 1.0
+ }
+]
