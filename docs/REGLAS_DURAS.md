@@ -6,10 +6,11 @@ Luis quiere **exactamente la edición del video aprobado**, `final/12_marcas_col
 python src/verificar.py final/MI_VIDEO.mp4 final/mi_edl.json
 ```
 
-## Lo que NO se hace (pasó con una versión rechazada, el v4 hecho con otra IA)
+## Lo que NO se hace (pasó con una versión rechazada, el v4 hecho con otro agente)
 
 ![no hacer](referencia/NO_HACER_texto_de_la_narracion_en_tarjeta.jpg)
 
+- **PROHIBIDO escribir un editor propio o rediseñar las plantillas.** Se usa `src/render.py` + `src/estilo.py` tal cual; solo cambia el EDL. La versión rechazada hizo su propio editor, con otro diseño y sin la mitad de los recursos.
 - **PROHIBIDO poner la narración escrita en tarjetas de papel** como relleno. La voz ya la dice. En la versión rechazada eso ocupó el **69 %** del video.
 - **PROHIBIDO dejar una imagen o tarjeta quieta** durante muchos segundos. La versión rechazada tuvo un tramo de 51 s sin cambiar.
 - **PROHIBIDO usar frames de comerciales de TV** (las hormiguitas de "Aló, Mamá", la abejita del comercial de Conavi). Content ID los detecta.

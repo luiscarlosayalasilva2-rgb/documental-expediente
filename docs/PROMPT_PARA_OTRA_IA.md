@@ -13,6 +13,7 @@ Antes de hacer nada, lee completos y en este orden:
 4. `docs/PROCESO_COMPLETO.md`: los errores que ya se cometieron y cómo se resolvieron.
 
 Reglas que no se negocian:
+- Usa el motor del repo (`src/render.py` y `src/estilo.py`) sin modificar el diseño. No escribas tu propio editor: solo armas el EDL (json) y lo renderizas con `src/mezclar.ps1`.
 - La pantalla casi siempre muestra una **foto o un video real de lo que la voz dice en ese segundo**, con zoom lento. **Nunca** se pone la narración escrita en tarjetas. Los textos (número rojo, palabra gigante, ficha, nota corta) son acentos encima de la imagen.
 - Cortes cada 3 o 4 s en promedio, ningún plano de más de 11 s, unos 35 clips de video en 14 min, cero fotos repetidas.
 - Cada ítem de la lista abre con su **número rojo grande y el nombre** debajo, y luego la ficha "PARADA N".
@@ -25,8 +26,10 @@ El tema nuevo es: **[TEMA]**. Te paso el guion (con secciones INTRO, PARADA N �
 
 ---
 
-## Nota para IAs que no pueden abrir un navegador ni ejecutar código
+## Nota para agentes con su propio PC (Muse u otros)
 
-Si la IA no puede bajar fotos ni correr los scripts (Muse, por ejemplo, sin acceso a la PC), **no puede hacer esta edición sola**: el resultado termina siendo texto sobre papel, como el v4 rechazado. En ese caso:
-- que la IA haga solo el **plan**: la lista de búsquedas por frase y el EDL con tiempos;
-- y que el render, la descarga de fotos y la verificación se hagan en la PC de Luis, con Claude Code y Claude in Chrome, siguiendo `README.md`.
+La versión v4 hecha con un agente que sí podía bajar fotos y videos salió rechazada por dos motivos, y por eso estas reglas son obligatorias:
+1. **Escribió su propio editor** en vez de usar el del repo. El resultado tenía otro diseño de tarjetas y le faltaban los números, las palabras gigantes, las polaroids y el zoom. **Hay que usar `src/render.py` + `src/estilo.py` tal cual**, sin escribir ni rediseñar plantillas. Solo cambia el EDL (json).
+2. **Rellenó con la narración escrita en tarjetas** cuando no encontró fotos. Está prohibido. Si falta una imagen: se busca más (otras palabras, redes, foros), se usa una foto de la época o un clip de video real del ambiente.
+
+Antes de dar el video por terminado, el agente corre `python src/verificar.py` sobre su video y su EDL, y repite hasta que diga APROBADO.
