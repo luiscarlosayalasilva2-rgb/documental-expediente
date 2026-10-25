@@ -67,6 +67,8 @@ Windows 11, Intel i3 sin GPU dedicada, 7.7 GB de RAM.
 
 ## Receta para un video NUEVO, editado igual que este
 
+**Antes del guion:** la investigación y el guion se preparan en Gemini (Deep Research) con los prompts de **[docs/PROMPTS_INVESTIGACION_GEMINI.md](docs/PROMPTS_INVESTIGACION_GEMINI.md)**, que entregan el guion ya en el formato que lee `nuevo_video.py`.
+
 Luis entrega dos cosas: el **guion** con secciones `INTRO`, `PARADA N — Nombre` y `CIERRE`, y el **audio** de la voz.
 
 1. **Voz:** `powershell -File src\voz.ps1 -Entrada "<audio.wav>"`.

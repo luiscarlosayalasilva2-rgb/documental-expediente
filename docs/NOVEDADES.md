@@ -10,6 +10,9 @@ Después lee esta página de arriba hacia abajo **hasta la última versión que 
 
 ---
 
+## 2026-10-25 · Prompts de investigación para Gemini
+- [PROMPTS_INVESTIGACION_GEMINI.md](PROMPTS_INVESTIGACION_GEMINI.md): 6 prompts en orden (elegir ítems, fichas con datos verificables, anécdotas reales, dónde están las fotos auténticas y homónimos, guion con el formato del método y verificación). El guion sale listo para `nuevo_video.py`.
+
 ## 2026-10-25 · Fotos repetidas por imagen, fallo de Real-ESRGAN y video aprobado v4
 
 **Qué cambió**
