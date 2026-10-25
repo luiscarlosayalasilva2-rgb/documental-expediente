@@ -1,0 +1,9 @@
+# medios pesados y con derechos de terceros: no se suben
+audio/
+demo/
+prueba/
+media/
+final/*.mp4
+final/render_*/
+__pycache__/
+*.pyc

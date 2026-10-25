@@ -1,0 +1,4405 @@
+{
+ "dur": 832.24,
+ "audio": "C:\\Users\\luisa\\calude\\colombia12\\audio\\voz_final.wav",
+ "planos": [
+  {
+   "t0": 0.0,
+   "t1": 2.8,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_intro_tienda_01.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 2.8,
+   "t1": 4.7,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\src\\..\\media\\google_hd\\hd_intro_tienda_00.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 4.7,
+   "t1": 5.8,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\intro_nevera_00.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.05,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 5.8,
+   "t1": 7.1,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay\\bedside_table_lamp_vintage_2.jpg",
+   "mov": {
+    "z0": 1.05,
+    "z1": 1.0,
+    "c0": [
+     0.45,
+     0.5
+    ],
+    "c1": [
+     0.55,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 7.1,
+   "t1": 8.4,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay\\old_wallet_leather_2.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 8.4,
+   "t1": 9.7,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\intro_tienda_02.jpg",
+   "mov": {
+    "z0": 1.05,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 9.7,
+   "t1": 12.8,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\limpias\\intro_tienda_07.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": true
+  },
+  {
+   "t0": 12.8,
+   "t1": 19.3,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v2\\colombia_old_town_street_3.mp4",
+   "ss": 1.0,
+   "bw": false
+  },
+  {
+   "t0": 19.3,
+   "t1": 25.0,
+   "tipo": "papel",
+   "papel": {
+    "modo": "polaroid",
+    "fotos": [
+     {
+      "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_intro_tienda_02.jpg",
+      "pie": "La tienda de la esquina"
+     },
+     {
+      "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\p12_colegio_07.jpg",
+      "pie": "El colegio, años 90"
+     }
+    ]
+   }
+  },
+  {
+   "t0": 25.0,
+   "t1": 28.3,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\limpias\\hd_p12_colegio_00.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 28.3,
+   "t1": 32.0,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_p12_colegio_01.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.4,
+     0.5
+    ],
+    "c1": [
+     0.6,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 32.0,
+   "t1": 35.0,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\limpias\\hd_p12_monedas_00.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.08,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 35.0,
+   "t1": 38.8,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_p12_carrito_04.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 38.8,
+   "t1": 42.1,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_p12_baloncito_01.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 42.1,
+   "t1": 45.6,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\limpias\\p12_baloncito_campina_1.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 45.6,
+   "t1": 48.8,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\limpias\\p12_baloncito_00.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 48.8,
+   "t1": 54.9,
+   "tipo": "papel",
+   "papel": {
+    "modo": "unica",
+    "fotos": [
+     {
+      "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\limpias\\p12_baloncito_01.jpg",
+      "pie": "El balón que se quedó en la casa"
+     }
+    ]
+   }
+  },
+  {
+   "t0": 54.9,
+   "t1": 59.3,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_p12_baloncito_00.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 59.3,
+   "t1": 62.9,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_p12_mundial_02.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 62.9,
+   "t1": 65.1,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_p12_mundial_01.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 65.1,
+   "t1": 68.1,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_p12_carrito_00.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 68.1,
+   "t1": 74.45,
+   "tipo": "papel",
+   "papel": {
+    "modo": "polaroid",
+    "fotos": [
+     {
+      "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google\\p12_coladetigre_04.jpg",
+      "pie": "Paleta Cola de Tigre"
+     },
+     {
+      "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_p12_coladetigre_03.jpg",
+      "pie": "Las franjas de colores"
+     }
+    ]
+   }
+  },
+  {
+   "t0": 74.45,
+   "t1": 77.1,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v2\\popsicle_eating_1.mp4",
+   "ss": 1.0,
+   "bw": false
+  },
+  {
+   "t0": 77.1,
+   "t1": 78.0,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v\\old_television_static_2.mp4",
+   "ss": 1.0
+  },
+  {
+   "t0": 78.0,
+   "t1": 80.25,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v2\\bogota_colombia_street_3.mp4",
+   "ss": 1.0,
+   "bw": false
+  },
+  {
+   "t0": 80.25,
+   "t1": 82.5,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b11_betatonio_01.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 82.5,
+   "t1": 84.8,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b11_videoclub_00.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 84.8,
+   "t1": 87.1,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b11_videoclub_02.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 87.1,
+   "t1": 89.44999999999999,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b11_videoclub_04.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 89.44999999999999,
+   "t1": 91.8,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b11_betatonio_02.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 91.8,
+   "t1": 95.35,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\src\\..\\media\\google_hd\\hd_b11_betatonio_01.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 95.35,
+   "t1": 98.9,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b11_nintendo_05.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 98.9,
+   "t1": 101.5,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google\\b11_rebobinar_03.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "tipo": "papel",
+   "papel": {
+    "modo": "polaroid",
+    "fotos": [
+     {
+      "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b11_betatonio_00.jpg",
+      "pie": "Betatonio, Bogotá"
+     },
+     {
+      "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b11_carnet_01.jpg",
+      "pie": "Promociones para socios"
+     }
+    ]
+   },
+   "t0": 101.5,
+   "t1": 109.1
+  },
+  {
+   "t0": 109.1,
+   "t1": 113.2,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\limpias\\b11_betatonio_05.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 113.2,
+   "t1": 117.3,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b11_betatonio_03.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 117.3,
+   "t1": 119.35,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b11_nintendo_02.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 119.35,
+   "t1": 121.4,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b11_nintendo_01.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 121.4,
+   "t1": 124.5,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v\\vhs_player_insert_tape_1.mp4",
+   "ss": 1.0
+  },
+  {
+   "t0": 124.5,
+   "t1": 127.6,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b11_betatonio_04.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 127.6,
+   "t1": 130.4,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b11_betatonio_00.jpg",
+   "bw": true,
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 130.4,
+   "t1": 132.05,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b11_dvd_03.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 132.05,
+   "t1": 133.7,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b11_dvd_02.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 133.7,
+   "t1": 138.95,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v2\\video_rental_store_2.mp4",
+   "ss": 1.0,
+   "bw": false
+  },
+  {
+   "t0": 138.95,
+   "t1": 144.2,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b11_videoclub_03.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07
+   }
+  },
+  {
+   "t0": 144.2,
+   "t1": 150.2,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b10_konga_06.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 150.2,
+   "t1": 152.2,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b10_konga_02.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "tipo": "papel",
+   "papel": {
+    "modo": "vs",
+    "fotos": [
+     {
+      "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b10_konga_03.jpg",
+      "pie": "Konga · Bavaria"
+     },
+     {
+      "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b10_postobon_04.jpg",
+      "pie": "Manzana · Postobón"
+     }
+    ],
+    "titulo": "Konga vs Postobón",
+    "sub": "La guerra de las gaseosas de los noventa"
+   },
+   "t0": 152.2,
+   "t1": 160.8
+  },
+  {
+   "t0": 160.8,
+   "t1": 162.35000000000002,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\src\\..\\media\\google_hd\\hd_b10_link_00.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 162.35000000000002,
+   "t1": 163.9,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b10_link_01.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 163.9,
+   "t1": 167.6,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\limpias\\hd_b10_konga_00.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 167.6,
+   "t1": 170.5,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v2\\children_playing_soccer_street_1.mp4",
+   "ss": 1.0,
+   "bw": false
+  },
+  {
+   "t0": 170.5,
+   "t1": 173.4,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b10_postobon_00.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 173.4,
+   "t1": 177.1,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b10_postobon_01.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 177.1,
+   "t1": 181.6,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b10_almuerzo_01.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 181.6,
+   "t1": 183.4,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b10_konga_publi_01.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": true
+  },
+  {
+   "t0": 183.4,
+   "t1": 186.85000000000002,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b10_almuerzo_03.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 186.85000000000002,
+   "t1": 190.3,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v2\\family_lunch_table_3.mp4",
+   "ss": 1.0,
+   "bw": false
+  },
+  {
+   "t0": 190.3,
+   "t1": 192.7,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b09_casa_01.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 192.7,
+   "t1": 195.1,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b09_casa_05.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 195.1,
+   "t1": 196.9,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b09_casa_03.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 196.9,
+   "t1": 199.65,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google\\b09_granahorrar_00.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 199.65,
+   "t1": 202.4,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b09_granahorrar_00.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 202.4,
+   "t1": 206.76666666666668,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v2\\horses_running_herd_2.mp4",
+   "ss": 1.0,
+   "bw": false
+  },
+  {
+   "t0": 206.76666666666668,
+   "t1": 211.13333333333333,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b09_granahorrar_05.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 211.13333333333333,
+   "t1": 215.5,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b09_caballos_02.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 215.5,
+   "t1": 219.6,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b09_abuela_00.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 219.6,
+   "t1": 224.0,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b09_casa_01.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 224.0,
+   "t1": 228.4,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay\\house_keys_hand_2.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 228.4,
+   "t1": 232.8,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\hd_b09_libreta_00.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 232.8,
+   "t1": 236.6,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v2\\house_keys_door_1.mp4",
+   "ss": 1.0,
+   "bw": false
+  },
+  {
+   "t0": 236.6,
+   "t1": 240.05,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay\\grandmother_hands_1.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 240.05,
+   "t1": 243.5,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b09_abuela_03.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 243.5,
+   "t1": 248.6,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b09_casa_00.jpg",
+   "bw": true,
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 248.6,
+   "t1": 254.0,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b09_casa_02.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": true
+  },
+  {
+   "t0": 254.0,
+   "t1": 258.9,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b09_granahorrar_01.jpg",
+   "bw": true,
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 258.9,
+   "t1": 264.5,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b09_granahorrar_02.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 264.5,
+   "t1": 266.6,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b08_edificio_02.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 266.6,
+   "t1": 269.1,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b08_telecom_04.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 269.1,
+   "t1": 271.6,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b08_publico_04.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 271.6,
+   "t1": 274.9,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b08_edificio_04.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 274.9,
+   "t1": 276.95,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay\\rotary_phone_2.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 276.95,
+   "t1": 279.0,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v\\telephone_booth_2.mp4",
+   "ss": 1.0
+  },
+  {
+   "t0": 279.0,
+   "t1": 281.15,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\limpias\\b08_fila_00.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 281.15,
+   "t1": 283.3,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\limpias\\b08_fila_04.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 283.3,
+   "t1": 286.05,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\limpias\\hd_b08_caballo_00.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 286.05,
+   "t1": 288.8,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b08_caballo_01.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 288.8,
+   "t1": 292.3666666666667,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b08_fila_03.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 292.3666666666667,
+   "t1": 295.93333333333334,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b08_publico_03.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 295.93333333333334,
+   "t1": 299.5,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v\\rain_window_1.mp4",
+   "ss": 1.0
+  },
+  {
+   "tipo": "papel",
+   "papel": {
+    "modo": "unica",
+    "fotos": [
+     {
+      "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b08_mapa_03.jpg",
+      "pie": "Indicativos de larga distancia"
+     }
+    ]
+   },
+   "t0": 299.5,
+   "t1": 303.9
+  },
+  {
+   "t0": 303.9,
+   "t1": 308.25,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay\\rotary_phone_1.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 308.25,
+   "t1": 312.6,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b08_telecom_00.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 312.6,
+   "t1": 317.1,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b08_telecom_04.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 317.1,
+   "t1": 322.1,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b08_edificio_00.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 322.1,
+   "t1": 326.1,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b08_edificio_02.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 326.1,
+   "t1": 329.6,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b08_fila_00.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 329.6,
+   "t1": 333.1,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\limpias\\hd_b08_publico_04.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 333.1,
+   "t1": 336.6,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b08_publico_05.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07
+   }
+  },
+  {
+   "t0": 336.6,
+   "t1": 339.0,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b07_centro_00.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 339.0,
+   "t1": 341.4,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\limpias\\hd_b07_centro_02.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 341.4,
+   "t1": 347.6,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\limpias\\b07_caravana_01.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "tipo": "papel",
+   "papel": {
+    "modo": "polaroid",
+    "fotos": [
+     {
+      "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\limpias\\b07_caravana_04.jpg",
+      "pie": "Caravana"
+     },
+     {
+      "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b02_ley_01.jpg",
+      "pie": "Ley"
+     },
+     {
+      "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b03_tia_05.jpg",
+      "pie": "Tía"
+     }
+    ]
+   },
+   "t0": 347.6,
+   "t1": 355.0
+  },
+  {
+   "t0": 355.0,
+   "t1": 360.6,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b07_escaleras_00.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 360.6,
+   "t1": 364.0,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v\\escalator_people_1.mp4",
+   "ss": 1.0
+  },
+  {
+   "t0": 364.0,
+   "t1": 367.3,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\src\\..\\media\\google_hd\\hd_b07_caravana_01.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 367.3,
+   "t1": 369.95000000000005,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v\\escalator_people_2.mp4",
+   "ss": 1.0
+  },
+  {
+   "t0": 369.95000000000005,
+   "t1": 372.6,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b07_escaleras_03.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 372.6,
+   "t1": 378.6,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b07_caravana_03.jpg",
+   "bw": true,
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 378.6,
+   "t1": 380.4,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b07_centro_04.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 380.4,
+   "t1": 382.2,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b07_carabobo_03.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 382.2,
+   "t1": 386.1,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v2\\escalator_shopping_mall_2.mp4",
+   "ss": 1.0,
+   "bw": false
+  },
+  {
+   "t0": 386.1,
+   "t1": 390.0,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b07_centro_03.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 390.0,
+   "t1": 394.3,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v2\\department_store_2.mp4",
+   "ss": 1.0,
+   "bw": false
+  },
+  {
+   "t0": 394.3,
+   "t1": 396.7,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b06_abuelo_03.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 396.7,
+   "t1": 400.0333333333333,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay\\old_television_football_1.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07
+   }
+  },
+  {
+   "t0": 400.0333333333333,
+   "t1": 403.3666666666667,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b06_malta_02.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 403.3666666666667,
+   "t1": 406.7,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b06_malta_05.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 406.7,
+   "t1": 409.65,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b06_malta_00.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 409.65,
+   "t1": 412.6,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v\\beer_pouring_glass_1.mp4",
+   "ss": 1.0
+  },
+  {
+   "t0": 412.6,
+   "t1": 416.33333333333337,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b06_leona_01.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 416.33333333333337,
+   "t1": 420.06666666666666,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b06_leona_06.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 420.06666666666666,
+   "t1": 423.8,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b06_rana_00.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 423.8,
+   "t1": 428.65,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v2\\watching_football_tv_family_2.mp4",
+   "ss": 1.0,
+   "bw": false
+  },
+  {
+   "t0": 428.65,
+   "t1": 433.5,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b06_malta_04.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 433.5,
+   "t1": 438.05,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b06_malta_01.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 438.05,
+   "t1": 442.6,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b06_leona_00.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 442.6,
+   "t1": 445.5,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v2\\beer_bottles_cold_2.mp4",
+   "ss": 1.0,
+   "bw": true
+  },
+  {
+   "t0": 445.5,
+   "t1": 448.95,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v\\rain_window_2.mp4",
+   "ss": 1.0,
+   "bw": false
+  },
+  {
+   "t0": 448.95,
+   "t1": 452.4,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v2\\bogota_colombia_street_2.mp4",
+   "ss": 1.0,
+   "bw": false
+  },
+  {
+   "t0": 452.4,
+   "t1": 458.4,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v2\\cali_colombia_2.mp4",
+   "ss": 1.0,
+   "bw": false
+  },
+  {
+   "t0": 458.4,
+   "t1": 459.0,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\src\\..\\media\\google_hd\\hd_b05_la14_02.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 459.0,
+   "t1": 465.4,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b05_la14_02.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 465.4,
+   "t1": 469.29999999999995,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b05_calima_01.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 469.29999999999995,
+   "t1": 473.2,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b05_calima_00.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 473.2,
+   "t1": 475.9,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b03_cafeteria_00.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 475.9,
+   "t1": 480.1,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b05_cierre_02.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 480.1,
+   "t1": 484.23333333333335,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v2\\cilantro_herbs_market_3.mp4",
+   "ss": 1.0,
+   "bw": false
+  },
+  {
+   "t0": 484.23333333333335,
+   "t1": 488.3666666666667,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b05_cilantro_01.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 488.3666666666667,
+   "t1": 492.5,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b05_cilantro_03.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 492.5,
+   "t1": 495.5,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b05_la14_03.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 495.5,
+   "t1": 500.65,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v2\\empty_shopping_mall_closed_3.mp4",
+   "ss": 1.0,
+   "bw": false
+  },
+  {
+   "t0": 500.65,
+   "t1": 505.8,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay\\empty_supermarket_aisle_1.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 505.8,
+   "t1": 506.6,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b05_la14_04.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 506.6,
+   "t1": 510.6,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b05_la14_05.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 510.6,
+   "t1": 514.6,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\src\\..\\media\\google_hd\\hd_b05_cierre_00.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 514.6,
+   "t1": 517.8,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b04_chupiplum_00.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 517.8,
+   "t1": 521.2,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b04_recreo_01.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 521.2,
+   "t1": 525.3,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b04_tatuaje_00.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 525.3,
+   "t1": 529.4,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b04_tatuaje_00.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 529.4,
+   "t1": 532.45,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b04_tatuaje_02.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 532.45,
+   "t1": 535.5,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\limpias\\b04_tatuaje_03.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 535.5,
+   "t1": 539.6,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b04_recreo_02.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 539.6,
+   "t1": 543.6500000000001,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay\\stickers_album_3.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 543.6500000000001,
+   "t1": 547.7,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b04_album_02.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 547.7,
+   "t1": 552.4,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b04_chupiplum_07.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 552.4,
+   "t1": 553.5,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v2\\empty_shopping_mall_closed_1.mp4",
+   "ss": 1.0,
+   "bw": false
+  },
+  {
+   "tipo": "papel",
+   "papel": {
+    "modo": "unica",
+    "fotos": [
+     {
+      "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b04_caja_02.jpg",
+      "pie": "Lo que todavía se guarda"
+     }
+    ]
+   },
+   "t0": 553.5,
+   "t1": 560.9
+  },
+  {
+   "t0": 560.9,
+   "t1": 565.45,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay\\children_playground_school_1.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 565.45,
+   "t1": 570.0,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b04_recreo_04.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 570.0,
+   "t1": 571.7333333333333,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\limpias\\hd_b03_bogota_01.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 571.7333333333333,
+   "t1": 573.4666666666667,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v\\coffee_grinder_2.mp4",
+   "ss": 1.0,
+   "bw": false
+  },
+  {
+   "t0": 573.4666666666667,
+   "t1": 575.2,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay\\colombian_empanadas_1.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 575.2,
+   "t1": 577.5,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b03_tia_01.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 577.5,
+   "t1": 583.8,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b03_tia_04.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 583.8,
+   "t1": 585.2,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b03_tia_02.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 585.2,
+   "t1": 588.6,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b03_cierre_05.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 588.6,
+   "t1": 592.0,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b03_cierre_02.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 592.0,
+   "t1": 597.4,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b03_tia_05.jpg",
+   "bw": true,
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 597.4,
+   "t1": 603.0,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b03_cierre_04.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 603.0,
+   "t1": 608.6,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b03_bogota_00.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 608.6,
+   "t1": 612.1,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b03_cierre_00.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 612.1,
+   "t1": 616.7,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b03_cafeteria_01.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 616.7,
+   "t1": 621.3,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay\\coffee_grinding_beans_3.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 621.3,
+   "t1": 626.8,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b03_tia_07.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 626.8,
+   "t1": 630.4,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b03_cierre_03.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 630.4,
+   "t1": 633.8,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v\\candles_burning_2.mp4",
+   "ss": 1.0
+  },
+  {
+   "t0": 633.8,
+   "t1": 637.2,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay\\candles_flowers_door_2.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 637.2,
+   "t1": 641.0,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b03_cierre_01.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 641.0,
+   "t1": 643.9,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b03_tia_00.jpg",
+   "bw": true,
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 643.9,
+   "t1": 646.9,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b02_ley_02.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 646.9,
+   "t1": 653.7,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\limpias\\hd_b02_ley2_00.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 653.7,
+   "t1": 658.6,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b02_ley_04.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 658.6,
+   "t1": 661.3,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b02_ley_05.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 661.3,
+   "t1": 664.3,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b02_pueblo_00.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 664.3,
+   "t1": 667.3,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b02_pueblo_03.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 667.3,
+   "t1": 670.3,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v\\christmas_lights_town_2.mp4",
+   "ss": 1.0
+  },
+  {
+   "t0": 670.3,
+   "t1": 674.75,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b02_perros_01.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 674.75,
+   "t1": 679.2,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v\\supermarket_shopping_1.mp4",
+   "ss": 1.0
+  },
+  {
+   "t0": 679.2,
+   "t1": 683.2,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\limpias\\hd_b02_ley2_01.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 683.2,
+   "t1": 686.2,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b03_cafeteria_02.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 686.2,
+   "t1": 688.6,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v2\\department_store_3.mp4",
+   "ss": 1.0,
+   "bw": false
+  },
+  {
+   "t0": 688.6,
+   "t1": 694.2,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b02_ley_02.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 694.2,
+   "t1": 699.8,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v2\\escalator_shopping_mall_1.mp4",
+   "ss": 1.0,
+   "bw": false
+  },
+  {
+   "t0": 699.8,
+   "t1": 703.45,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\src\\..\\media\\google_hd\\hd_b02_donjulio_04.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 703.45,
+   "t1": 707.1,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b02_donjulio_01.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 707.1,
+   "t1": 712.45,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b02_exito_00.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 712.45,
+   "t1": 717.8,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b02_exito_02.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 717.8,
+   "t1": 722.3,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v2\\empty_shopping_mall_closed_2.mp4",
+   "ss": 1.0,
+   "bw": false
+  },
+  {
+   "t0": 722.3,
+   "t1": 729.0,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b01_conavi_01.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 729.0,
+   "t1": 734.9,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v2\\medellin_colombia_city_1.mp4",
+   "ss": 1.0,
+   "bw": false
+  },
+  {
+   "t0": 734.9,
+   "t1": 738.9,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b01_conavi_02.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 738.9,
+   "t1": 742.5,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v\\coins_piggy_bank_2.mp4",
+   "ss": 1.0
+  },
+  {
+   "t0": 742.5,
+   "t1": 746.1,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b01_natilla_00.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 746.1,
+   "t1": 751.6500000000001,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b00_familia_01.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 751.6500000000001,
+   "t1": 757.2,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b00_familia_01.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 757.2,
+   "t1": 759.6,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b01_alcancia_04.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 759.6,
+   "t1": 765.9000000000001,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\limpias\\hd_b01_mil_01.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 765.9000000000001,
+   "t1": 772.2,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b01_mil_02.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07
+   }
+  },
+  {
+   "t0": 772.2,
+   "t1": 777.05,
+   "tipo": "video",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\pixabay_v2\\children_playing_soccer_street_3.mp4",
+   "ss": 1.0,
+   "bw": false
+  },
+  {
+   "t0": 777.05,
+   "t1": 781.9,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b01_tarjeta_02.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 781.9,
+   "t1": 785.7,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b01_conavi_04.jpg",
+   "bw": true,
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 785.7,
+   "t1": 790.95,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b01_tarjeta_03.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 790.95,
+   "t1": 796.2,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b01_tarjeta_00.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "t0": 796.2,
+   "t1": 800.95,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b01_tarjeta_01.jpg",
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 800.95,
+   "t1": 805.7,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b01_conavi_01.jpg",
+   "mov": {
+    "z0": 1.07,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "tipo": "papel",
+   "papel": {
+    "modo": "polaroid",
+    "fotos": [
+     {
+      "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b01_conavi_00.jpg",
+      "pie": "La alcancía de la casa"
+     },
+     {
+      "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b01_conavi_04.jpg",
+      "pie": "La abejita volvió"
+     }
+    ]
+   },
+   "t0": 805.7,
+   "t1": 809.4
+  },
+  {
+   "t0": 809.4,
+   "t1": 811.8,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b09_abuela_00.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.06,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "tipo": "papel",
+   "papel": {
+    "modo": "carrusel",
+    "fotos": [
+     {
+      "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_p12_baloncito_01.jpg",
+      "pie": "12 · Baloncito"
+     },
+     {
+      "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_b11_betatonio_00.jpg",
+      "pie": "11 · Betatonio"
+     },
+     {
+      "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b10_konga_06.jpg",
+      "pie": "10 · Konga"
+     },
+     {
+      "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b08_publico_04.jpg",
+      "pie": "8 · Telecom"
+     },
+     {
+      "src": "C:\\Users\\luisa\\calude\\colombia12\\src\\..\\media\\google_hd\\hd_b05_cierre_00.jpg",
+      "pie": "5 · La 14"
+     },
+     {
+      "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b03_tia_07.jpg",
+      "pie": "3 · Tía"
+     },
+     {
+      "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b01_conavi_01.jpg",
+      "pie": "1 · Conavi"
+     }
+    ]
+   },
+   "t0": 811.8,
+   "t1": 822.1
+  },
+  {
+   "t0": 822.1,
+   "t1": 829.5,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\hd_esrgan\\b00_dulces_01.jpg",
+   "mov": {
+    "z0": 1.06,
+    "z1": 1.0,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   },
+   "bw": false
+  },
+  {
+   "t0": 829.5,
+   "t1": 832.24,
+   "tipo": "imagen",
+   "src": "C:\\Users\\luisa\\calude\\colombia12\\media\\google_hd\\hd_intro_tienda_04.jpg",
+   "bw": false,
+   "mov": {
+    "z0": 1.0,
+    "z1": 1.07,
+    "c0": [
+     0.5,
+     0.5
+    ],
+    "c1": [
+     0.5,
+     0.5
+    ]
+   }
+  }
+ ],
+ "capas": [
+  {
+   "tipo": "palabra",
+   "t": 1.75,
+   "dur": 2.9,
+   "palabra": "Heredaba",
+   "sub": "Hay marcas que uno no escogía: las heredaba."
+  },
+  {
+   "tipo": "numero",
+   "t": 14.25,
+   "dur": 3.0,
+   "num": "12",
+   "label": "paradas, doce marcas"
+  },
+  {
+   "tipo": "numero",
+   "t": 25.0,
+   "dur": 2.3,
+   "num": "12",
+   "label": "Helados Baloncito",
+   "grande": true
+  },
+  {
+   "tipo": "file",
+   "t": 27.35,
+   "dur": 4.0,
+   "texto": "Helados Baloncito",
+   "etiqueta": "Parada 12"
+  },
+  {
+   "tipo": "nota",
+   "t": 42.1,
+   "dur": 3.4,
+   "texto": "El helado duraba cinco minutos. El balón, toda la vida.",
+   "resaltar": [
+    "toda la vida"
+   ]
+  },
+  {
+   "tipo": "numero",
+   "t": 55.85,
+   "dur": 2.8,
+   "num": "30",
+   "label": "años después"
+  },
+  {
+   "tipo": "numero",
+   "t": 61.25,
+   "dur": 2.6,
+   "num": "4",
+   "label": "años entre mundiales"
+  },
+  {
+   "tipo": "palabra",
+   "t": 74.45,
+   "dur": 2.6,
+   "palabra": "Premio",
+   "sub": "Sabía a premio. Sabía a «ya salí»."
+  },
+  {
+   "tipo": "numero",
+   "t": 77.1,
+   "dur": 2.3,
+   "num": "11",
+   "label": "Betatonio",
+   "grande": true
+  },
+  {
+   "tipo": "file",
+   "t": 79.44999999999999,
+   "dur": 4.0,
+   "texto": "Betatonio",
+   "etiqueta": "Parada 11"
+  },
+  {
+   "tipo": "palabra",
+   "t": 112.4,
+   "dur": 3.0,
+   "palabra": "Socio",
+   "sub": "«Era pupi estar afiliado a Betatonio»."
+  },
+  {
+   "tipo": "nota",
+   "t": 124.48,
+   "dur": 3.2,
+   "texto": "La cinta se devolvía rebobinada… o se pagaba la multa.",
+   "resaltar": [
+    "rebobinada"
+   ]
+  },
+  {
+   "tipo": "numero",
+   "t": 128.36,
+   "dur": 1.5,
+   "num": "27",
+   "label": "años abierto",
+   "grande": false
+  },
+  {
+   "tipo": "numero",
+   "t": 129.98,
+   "dur": 2.2,
+   "num": "2007",
+   "label": "año de cierre",
+   "grande": false
+  },
+  {
+   "tipo": "palabra",
+   "t": 142.3,
+   "dur": 1.9,
+   "palabra": "Pantalla",
+   "sub": "Eso no lo ha reemplazado ninguna pantalla."
+  },
+  {
+   "tipo": "numero",
+   "t": 144.2,
+   "dur": 2.3,
+   "num": "10",
+   "label": "Gaseosas Konga",
+   "grande": true
+  },
+  {
+   "tipo": "file",
+   "t": 146.54999999999998,
+   "dur": 4.0,
+   "texto": "Gaseosas Konga",
+   "etiqueta": "Parada 10"
+  },
+  {
+   "tipo": "palabra",
+   "t": 150.3,
+   "dur": 1.9,
+   "palabra": "Rebelde",
+   "sub": "Era la gaseosa rebelde de los noventa."
+  },
+  {
+   "tipo": "nota",
+   "t": 173.5,
+   "dur": 3.3,
+   "texto": "«La de manzana era mejor que la de Postobón».",
+   "resaltar": [
+    "manzana"
+   ]
+  },
+  {
+   "tipo": "palabra",
+   "t": 188.62,
+   "dur": 1.65,
+   "palabra": "Honor",
+   "sub": "Hasta la gaseosa del almuerzo era una cuestión de honor."
+  },
+  {
+   "tipo": "numero",
+   "t": 190.3,
+   "dur": 2.3,
+   "num": "9",
+   "label": "Granahorrar",
+   "grande": true
+  },
+  {
+   "tipo": "file",
+   "t": 192.65,
+   "dur": 4.0,
+   "texto": "Granahorrar",
+   "etiqueta": "Parada 9"
+  },
+  {
+   "tipo": "numero",
+   "t": 222.92,
+   "dur": 2.2,
+   "num": "1975",
+   "label": "compraron la casa",
+   "grande": false
+  },
+  {
+   "tipo": "numero",
+   "t": 225.5,
+   "dur": 2.2,
+   "num": "15",
+   "label": "años pagando, cuota por cuota",
+   "grande": false
+  },
+  {
+   "tipo": "numero",
+   "t": 228.42,
+   "dur": 2.4,
+   "num": "$5.000",
+   "label": "el último pago, en 1990",
+   "grande": false
+  },
+  {
+   "tipo": "palabra",
+   "t": 233.6,
+   "dur": 2.4,
+   "palabra": "Nuestra",
+   "sub": "«Esta casa es nuestra»."
+  },
+  {
+   "tipo": "palabra",
+   "t": 249.0,
+   "dur": 3.4,
+   "palabra": "UPAC",
+   "sub": "Casas que terminaron costando mucho más de lo que valían."
+  },
+  {
+   "tipo": "numero",
+   "t": 254.88,
+   "dur": 2.4,
+   "num": "1998",
+   "label": "año de la intervención",
+   "grande": false
+  },
+  {
+   "tipo": "nota",
+   "t": 260.2,
+   "dur": 3.7,
+   "texto": "No todo lo que se fue era dulce. Pero todo lo que se fue era nuestro.",
+   "resaltar": [
+    "era nuestro"
+   ]
+  },
+  {
+   "tipo": "numero",
+   "t": 264.5,
+   "dur": 2.3,
+   "num": "8",
+   "label": "Telecom y sus cabinas",
+   "grande": true
+  },
+  {
+   "tipo": "file",
+   "t": 266.85,
+   "dur": 4.0,
+   "texto": "Telecom y sus cabinas",
+   "etiqueta": "Parada 8"
+  },
+  {
+   "tipo": "palabra",
+   "t": 306.68,
+   "dur": 3.0,
+   "palabra": "Aló, mamá",
+   "sub": "Unas hormiguitas rosadas nos cantaban «Aló, Mamá»."
+  },
+  {
+   "tipo": "nota",
+   "t": 313.8,
+   "dur": 2.8,
+   "texto": "«Listo Medellín, cabina 8».",
+   "resaltar": [
+    "cabina 8"
+   ]
+  },
+  {
+   "tipo": "numero",
+   "t": 322.16,
+   "dur": 2.4,
+   "num": "2003",
+   "label": "año de la liquidación",
+   "grande": false
+  },
+  {
+   "tipo": "palabra",
+   "t": 332.72,
+   "dur": 2.9,
+   "palabra": "A gritos",
+   "sub": "Esa forma tan nuestra de extrañar a la familia a gritos."
+  },
+  {
+   "tipo": "numero",
+   "t": 336.6,
+   "dur": 2.3,
+   "num": "7",
+   "label": "Almacenes Caravana",
+   "grande": true
+  },
+  {
+   "tipo": "file",
+   "t": 338.95000000000005,
+   "dur": 4.0,
+   "texto": "Almacenes Caravana",
+   "etiqueta": "Parada 7"
+  },
+  {
+   "tipo": "nota",
+   "t": 343.2,
+   "dur": 3.2,
+   "texto": "«Caravana, el gigante de los precios enanos».",
+   "resaltar": [
+    "precios enanos"
+   ]
+  },
+  {
+   "tipo": "numero",
+   "t": 356.5,
+   "dur": 2.6,
+   "num": "1955",
+   "label": "las primeras escaleras eléctricas de Medellín",
+   "grande": false
+  },
+  {
+   "tipo": "numero",
+   "t": 373.48,
+   "dur": 2.3,
+   "num": "1998",
+   "label": "año de cierre",
+   "grande": false
+  },
+  {
+   "tipo": "palabra",
+   "t": 390.2,
+   "dur": 3.4,
+   "palabra": "Diversiones",
+   "sub": "El parque de diversiones de los que no tenían para parque de diversiones."
+  },
+  {
+   "tipo": "numero",
+   "t": 394.3,
+   "dur": 2.3,
+   "num": "6",
+   "label": "Cervecería Leona",
+   "grande": true
+  },
+  {
+   "tipo": "file",
+   "t": 396.65000000000003,
+   "dur": 4.0,
+   "texto": "Cervecería Leona",
+   "etiqueta": "Parada 6"
+  },
+  {
+   "tipo": "palabra",
+   "t": 431.96,
+   "dur": 2.4,
+   "palabra": "Milagro",
+   "sub": "Más de uno se las tomó todas esperando el milagro."
+  },
+  {
+   "tipo": "palabra",
+   "t": 443.8,
+   "dur": 1.7,
+   "palabra": "Vacía",
+   "sub": "Y esa silla del abuelo quedó vacía."
+  },
+  {
+   "tipo": "numero",
+   "t": 448.8,
+   "dur": 2.4,
+   "num": "$2.000",
+   "label": "costaba el minuto",
+   "grande": false
+  },
+  {
+   "tipo": "numero",
+   "t": 452.4,
+   "dur": 2.3,
+   "num": "5",
+   "label": "Almacenes La 14",
+   "grande": true
+  },
+  {
+   "tipo": "file",
+   "t": 454.75,
+   "dur": 4.0,
+   "texto": "Almacenes La 14",
+   "etiqueta": "Parada 5"
+  },
+  {
+   "tipo": "numero",
+   "t": 459.64,
+   "dur": 2.3,
+   "num": "1964",
+   "label": "año de fundación",
+   "grande": false
+  },
+  {
+   "tipo": "nota",
+   "t": 462.4,
+   "dur": 2.6,
+   "texto": "«¡Siempre te da más!»",
+   "resaltar": [
+    "te da más"
+   ]
+  },
+  {
+   "tipo": "palabra",
+   "t": 488.0,
+   "dur": 3.0,
+   "palabra": "Cilantro",
+   "sub": "Un almacén que le compraba el cilantro a la señora del barrio."
+  },
+  {
+   "tipo": "numero",
+   "t": 493.86,
+   "dur": 2.3,
+   "num": "2021",
+   "label": "llegó la liquidación",
+   "grande": false
+  },
+  {
+   "tipo": "palabra",
+   "t": 511.5,
+   "dur": 2.9,
+   "palabra": "Se lloran",
+   "sub": "Las casas, cuando se caen, no se olvidan: se lloran."
+  },
+  {
+   "tipo": "numero",
+   "t": 514.6,
+   "dur": 1.85,
+   "num": "4",
+   "label": "Chupi Plum",
+   "grande": true
+  },
+  {
+   "tipo": "palabra",
+   "t": 516.4,
+   "dur": 1.4,
+   "palabra": "¡Plum!",
+   "sub": "Escuche: ¡PLUM!"
+  },
+  {
+   "tipo": "file",
+   "t": 517.9,
+   "dur": 4.0,
+   "texto": "Chupi Plum",
+   "etiqueta": "Parada 4"
+  },
+  {
+   "tipo": "palabra",
+   "t": 559.8,
+   "dur": 1.9,
+   "palabra": "Recreo",
+   "sub": "No están guardando una caja. Están guardando el recreo."
+  },
+  {
+   "tipo": "numero",
+   "t": 570.0,
+   "dur": 2.3,
+   "num": "3",
+   "label": "Almacenes Tía",
+   "grande": true
+  },
+  {
+   "tipo": "file",
+   "t": 572.35,
+   "dur": 4.0,
+   "texto": "Almacenes Tía",
+   "etiqueta": "Parada 3"
+  },
+  {
+   "tipo": "numero",
+   "t": 577.88,
+   "dur": 2.2,
+   "num": "1940",
+   "label": "año de fundación",
+   "grande": false
+  },
+  {
+   "tipo": "nota",
+   "t": 581.78,
+   "dur": 2.6,
+   "texto": "Tiendas Industriales Asociadas",
+   "resaltar": [
+    "T",
+    "I",
+    "A"
+   ]
+  },
+  {
+   "tipo": "palabra",
+   "t": 596.1600000000001,
+   "dur": 2.4,
+   "palabra": "Sabatinas",
+   "sub": "Niñas de catorce años que trabajaban sábados y domingos."
+  },
+  {
+   "tipo": "numero",
+   "t": 603.1,
+   "dur": 2.4,
+   "num": "$365",
+   "label": "el paguito del fin de semana",
+   "grande": false
+  },
+  {
+   "tipo": "nota",
+   "t": 622.8,
+   "dur": 3.4,
+   "texto": "«Donde compra como pobre y come como rico».",
+   "resaltar": [
+    "come como rico"
+   ]
+  },
+  {
+   "tipo": "numero",
+   "t": 628.5200000000001,
+   "dur": 2.4,
+   "num": "2017",
+   "label": "23 de noviembre",
+   "grande": false
+  },
+  {
+   "tipo": "palabra",
+   "t": 635.3,
+   "dur": 1.8,
+   "palabra": "Funeral",
+   "sub": "Como en un funeral. Porque eso fue."
+  },
+  {
+   "tipo": "numero",
+   "t": 643.9,
+   "dur": 2.3,
+   "num": "2",
+   "label": "Almacenes Ley",
+   "grande": true
+  },
+  {
+   "tipo": "file",
+   "t": 646.25,
+   "dur": 4.0,
+   "texto": "Almacenes Ley",
+   "etiqueta": "Parada 2"
+  },
+  {
+   "tipo": "palabra",
+   "t": 650.6,
+   "dur": 2.7,
+   "palabra": "Ley",
+   "sub": "A secas. Nunca «El Ley»."
+  },
+  {
+   "tipo": "numero",
+   "t": 657.42,
+   "dur": 2.4,
+   "num": "1922",
+   "label": "lo fundó Luis Eduardo Yepes",
+   "grande": false
+  },
+  {
+   "tipo": "numero",
+   "t": 692.4,
+   "dur": 2.2,
+   "num": "$57",
+   "label": "ganaba la supervisora",
+   "grande": false
+  },
+  {
+   "tipo": "palabra",
+   "t": 697.9,
+   "dur": 1.8,
+   "palabra": "Enamorados",
+   "sub": "Se enamoraron entre esos pasillos."
+  },
+  {
+   "tipo": "numero",
+   "t": 715.48,
+   "dur": 2.3,
+   "num": "2012",
+   "label": "el último Ley se volvió Éxito",
+   "grande": false
+  },
+  {
+   "tipo": "palabra",
+   "t": 719.8,
+   "dur": 2.0,
+   "palabra": "Adioses",
+   "sub": "Hubo una década entera de adioses chiquitos."
+  },
+  {
+   "tipo": "numero",
+   "t": 722.3,
+   "dur": 2.3,
+   "num": "1",
+   "label": "Conavi, la abejita",
+   "grande": true
+  },
+  {
+   "tipo": "file",
+   "t": 724.65,
+   "dur": 4.0,
+   "texto": "Conavi, la abejita",
+   "etiqueta": "Parada 1"
+  },
+  {
+   "tipo": "numero",
+   "t": 729.18,
+   "dur": 2.3,
+   "num": "1974",
+   "label": "nació en Medellín",
+   "grande": false
+  },
+  {
+   "tipo": "nota",
+   "t": 769.1,
+   "dur": 2.6,
+   "texto": "Así, moneda por moneda, aprendimos a ahorrar.",
+   "resaltar": [
+    "aprendimos a ahorrar"
+   ]
+  },
+  {
+   "tipo": "nota",
+   "t": 778.7,
+   "dur": 2.6,
+   "texto": "«Conavi quiere a la gente».",
+   "resaltar": [
+    "quiere a la gente"
+   ]
+  },
+  {
+   "tipo": "numero",
+   "t": 781.98,
+   "dur": 2.4,
+   "num": "2005",
+   "label": "se unió con Bancolombia",
+   "grande": false
+  },
+  {
+   "tipo": "palabra",
+   "t": 803.7,
+   "dur": 1.9,
+   "palabra": "Abejita",
+   "sub": "No por un banco. Por una abejita."
+  },
+  {
+   "tipo": "numero",
+   "t": 809.4,
+   "dur": 2.3,
+   "num": "12",
+   "label": "paradas, doce marcas",
+   "grande": false
+  },
+  {
+   "tipo": "palabra",
+   "t": 830.9,
+   "dur": 1.3400000000000318,
+   "palabra": "Pasado",
+   "sub": "Nos vemos en el pasado."
+  }
+ ]
+}
