@@ -33,3 +33,14 @@ La versión v4 hecha con un agente que sí podía bajar fotos y videos salió re
 2. **Rellenó con la narración escrita en tarjetas** cuando no encontró fotos. Está prohibido. Si falta una imagen: se busca más (otras palabras, redes, foros), se usa una foto de la época o un clip de video real del ambiente.
 
 Antes de dar el video por terminado, el agente corre `python src/verificar.py` sobre su video y su EDL, y repite hasta que diga APROBADO.
+
+**Si el agente trabaja en Linux o Mac**, los `.ps1` no corren, pero los `.py` sí. Instalación: `pip install -r requirements.txt` más ffmpeg. Los mismos pasos que hace `mezclar.ps1` son:
+
+```bash
+python src/render.py final/edl.json final/_sin_audio.mp4 --workers 4
+python src/efectos.py final/edl.json audio/efectos.wav
+ffmpeg -y -i final/_sin_audio.mp4 -i audio/voz_final.wav -i audio/efectos.wav -filter_complex "[1:a]aresample=48000[v];[2:a]aresample=48000[e];[v][e]amix=inputs=2:normalize=0:duration=first,alimiter=limit=0.89:level=false[a]" -map 0:v -map "[a]" -c:v copy -c:a aac -b:a 192k final/VIDEO_FINAL.mp4
+python src/verificar.py final/VIDEO_FINAL.mp4 final/edl.json
+```
+
+Las tipografías están en `fuentes/`, así que no dependen de Windows.
