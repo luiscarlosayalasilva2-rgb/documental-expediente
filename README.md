@@ -15,7 +15,7 @@ Lo que sigue es el próximo video, anunciado en el guion: **la tienda del colegi
 
 ## Reglas de Luis (no negociables)
 
-- **Material:** fotos **auténticas** que correspondan a lo que se narra. Se buscan en Google Imágenes, redes sociales y foros. **Nada de imágenes generadas con IA (no Flow).**
+- **Material:** fotos **auténticas** que correspondan a lo que se narra, cada imagen pegada al segundo exacto en que la voz lo dice. Guía completa en **`docs/IMAGENES_Y_SINCRONIA.md`**. Se buscan en Google Imágenes, redes sociales y foros. **Nada de imágenes generadas con IA (no Flow).**
 - **Créditos:** no se ponen en pantalla ni en la descripción. Solo se guardan internamente en `fuentes.tsv`.
 - **Voz:** sin espacios vacíos. Pausas de 0.28 s como máximo. Luis rechazó devolverle respiros.
 - **Audio:** solo efectos de sonido sintetizados con código, sin derechos de autor. **Sin música.**
