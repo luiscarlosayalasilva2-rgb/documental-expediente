@@ -4,6 +4,10 @@ Pipeline completo para hacer videos largos horizontales (16:9, ~14 min) con el e
 
 **Si eres un chat nuevo de Claude: lee este archivo completo, luego `docs/PROCESO_COMPLETO.md` (toda la historia, errores y correcciones hasta el video final) y `docs/ESTILO_DOCUMENTAL_EXPEDIENTE.md`, antes de tocar nada. El objetivo es replicar ESTA edición con el tema que Luis dé, entregando desde el inicio la calidad del último video.**
 
+## 🔄 Siempre primero: `git pull` y [docs/NOVEDADES.md](docs/NOVEDADES.md)
+
+El método se actualiza cada vez que revisamos un video. NOVEDADES dice qué cambió y qué corregir en un video que ya esté en curso.
+
 ## ⚠️ Antes de todo: [docs/REGLAS_DURAS.md](docs/REGLAS_DURAS.md)
 
 Ahí están las reglas obligatorias con metas medibles, las fotos de cómo debe verse cada recurso y lo que está **prohibido**: poner la narración escrita en tarjetas, que pasó en una versión rechazada. Ningún video se entrega sin que **`python src/verificar.py video.mp4 edl.json`** diga **APROBADO**. Las fotos deben pasar los filtros de **[docs/AUTENTICIDAD_FOTOS.md](docs/AUTENTICIDAD_FOTOS.md)** (país, marca correcta, sin dibujos ni comerciales, sin repetir) y la revisión de `python src/revisar_fotos.py final/edl.json`. Para empezar en otra IA hay un prompt listo en [docs/PROMPT_PARA_OTRA_IA.md](docs/PROMPT_PARA_OTRA_IA.md). **Todos los detalles de la edición** (papel que empuja, foto con pie, polaroids, VS, carrusel, blanco y negro…), con su animación cuadro a cuadro y cuántas veces van, están en **[docs/CATALOGO_DETALLES.md](docs/CATALOGO_DETALLES.md)**.

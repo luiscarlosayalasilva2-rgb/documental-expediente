@@ -109,6 +109,16 @@ Luis preguntó "¿cómo lo ves, sinceramente?". Le señalé 6 puntos débiles y 
 
 ---
 
+## Fase 9: probar el repo con otro agente (Muse) y endurecer las reglas
+
+| Versión | Qué falló | Qué se agregó al repo |
+|---|---|---|
+| v4 | 69 % del video con la narración escrita en tarjetas y un editor propio | REGLAS_DURAS.md, verificar.py |
+| v6 | una sola foto por parada (planos de hasta 114 s), aperturas incompletas, voz acelerada, sin cierre | CATALOGO_DETALLES.md, más controles, generar_srt.py |
+| v7 | la edición ya estaba bien, pero las fotos eran de otro país (Casa Ley de México, Tía de Ecuador, CONAVI de México), dibujos, comerciales y repetidas | AUTENTICIDAD_FOTOS.md, revisar_fotos.py |
+
+Al pasar `revisar_fotos.py` por **nuestro propio video** aparecieron 9 pares de fotos repetidas con otro nombre, y un fallo de Real-ESRGAN que había puesto la foto de un recreo donde iba el Chupi Plum. Se corrigió en `edl_v4.json` / `12_marcas_colombianas_FINAL_v4.mp4`.
+
 ## Errores que NO se deben repetir
 
 1. Decir "ya está completo" sin haberlo verificado.
@@ -120,6 +130,8 @@ Luis preguntó "¿cómo lo ves, sinceramente?". Le señalé 6 puntos débiles y 
 7. Repetir fotos.
 8. Poner créditos, preguntas en la descripción o música.
 9. Preguntarle cosas a Luis en medio de una mejora que pidió hacer de corrido.
+10. Fiarse de que las fotos mejoradas con Real-ESRGAN son las correctas: hay que compararlas con su original.
+11. Contar las repetidas por nombre de archivo: se cuentan comparando las imágenes.
 
 ## Forma de trabajo que le funcionó a Luis
 

@@ -1,6 +1,6 @@
 # Reglas duras (OBLIGATORIAS para cualquier IA: Claude, Muse u otra)
 
-Luis quiere **exactamente la edición del video aprobado**, `final/12_marcas_colombianas_FINAL.mp4`. Las reglas son medibles, y `src/verificar.py` las comprueba. **Si el verificador dice NO APROBADO, el video no se entrega**: se corrige y se vuelve a medir.
+Luis quiere **exactamente la edición del video aprobado**, `final/12_marcas_colombianas_FINAL_v4.mp4`, con su EDL `final/edl_v4.json`. Es la v3 aprobada, sin las fotos repetidas. Las reglas son medibles, y `src/verificar.py` las comprueba. **Si el verificador dice NO APROBADO, el video no se entrega**: se corrige y se vuelve a medir.
 
 ```
 python src/verificar.py final/MI_VIDEO.mp4 final/mi_edl.json

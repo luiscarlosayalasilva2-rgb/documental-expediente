@@ -7,3 +7,4 @@ final/*.mp4
 final/render_*/
 __pycache__/
 *.pyc
+final/revision/*.jpg

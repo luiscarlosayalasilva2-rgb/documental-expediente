@@ -28,6 +28,9 @@ RECORTES = {
     'hd_b01_mil_01.jpg': (0.0, 0.0, 1.0, 0.86),            # @MonedasColombia
     'b04_tatuaje_03.jpg': (0.07, 0.05, 0.93, 0.95),        # marco amarillo
     'hd_b03_bogota_01.jpg': (0.0, 0.08, 0.90, 1.0),        # marca de agua HFBC
+    'b07_caravana_06.jpg': (0.0, 0.0, 1.0, 0.80),          # crédito "FOTO: MIGUEL ÁNGEL ZULETA"
+    'b01_alcancia_03.jpg': (0.10, 0.36, 0.80, 0.73),       # solo la abejita, sin los textos de la publicación
+    'b04_chupiplum_05.jpg': (0.0, 0.24, 0.76, 1.0),        # empaque original, sin el título ni la marca de la tienda
 }
 
 def limpiar(ruta):

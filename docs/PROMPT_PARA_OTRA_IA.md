@@ -6,7 +6,7 @@ Copia esto tal cual al empezar un chat nuevo y cambia lo que está entre [corche
 
 Vas a editar un video documental largo, horizontal 16:9, **exactamente con la misma edición** que el video aprobado de este repositorio: https://github.com/luiscarlosayalasilva2-rgb/documental-expediente
 
-Antes de hacer nada, lee completos y en este orden:
+Antes de hacer nada: **`git pull`** (el repo se actualiza seguido) y lee **`docs/NOVEDADES.md`**, que dice qué cambió y qué hay que corregir en un video que ya tengas hecho. Después lee completos y en este orden:
 1. `docs/REGLAS_DURAS.md`: reglas obligatorias, metas medibles y fotos de cómo debe verse cada recurso.
    - `docs/CATALOGO_DETALLES.md`: **todos los detalles de la edición** con su animación y cuántas veces van. Hay que ponerlos **todos**: papel que empuja con foto y pie, polaroids, VS, carrusel, blanco y negro y notas.
 2. `README.md`: la receta paso a paso y las reglas de edición.
