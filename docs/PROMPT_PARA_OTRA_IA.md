@@ -20,6 +20,7 @@ Reglas que no se negocian:
 - Cortes cada 3 o 4 s en promedio, ningún plano de más de 11 s, unos 35 clips de video en 14 min, cero fotos repetidas.
 - Cada ítem de la lista abre con su **número rojo grande y el nombre** debajo, y luego la ficha "PARADA N".
 - Fotos auténticas (Google, redes, foros, Pixabay o Commons). Nada de imágenes de IA, frames de comerciales de TV ni marcas de agua.
+- **Autenticidad:** lee `docs/AUTENTICIDAD_FOTOS.md`. Cada foto debe ser **del país del video** y de **la marca correcta**, no de un homónimo: nada de Casa Ley de México, Tía de Ecuador ni CONAVI de México. **Nada de dibujos genéricos, juguetes, afiches ni comerciales.** Antes de buscar, escribe la tabla de homónimos de las marcas del guion. Antes de renderizar, corre `python src/revisar_fotos.py final/edl.json`, mira cada hoja y marca cada foto OK o CAMBIAR en `final/revision/REVISION.md`; se renderiza solo cuando todas digan OK.
 - Voz sin silencios, sin música, solo los efectos sintetizados de `src/efectos.py`. Sin créditos.
 - Antes de entregar, corre `python src/verificar.py video.mp4 edl.json`. **Solo se entrega si dice APROBADO.**
 - **Una imagen distinta cada 6 s como mínimo en cada parada** (una por cada cosa que se narra), nunca la misma foto durante toda una parada.

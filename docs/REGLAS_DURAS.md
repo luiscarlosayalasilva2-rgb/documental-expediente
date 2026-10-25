@@ -29,6 +29,18 @@ El v6 corrigió el texto en tarjetas, pero el verificador lo rechazó por esto:
 - **Afiches y frames de comerciales** (la hormiguita de Telecom, el comercial de la abejita). Prohibidos.
 - **No entregó el EDL.** **El EDL (json) se entrega siempre junto al video**; sin él, el verificador no aprueba.
 
+## Errores de la versión v7 (otro agente): autenticidad de las fotos, también PROHIBIDOS
+
+El v7 ya pasó todas las metas de edición, pero se rechazó por las fotos:
+- **De otro país, con el mismo nombre:** Casa Ley de México en lugar de Almacenes Ley, el Tía de Ecuador en lugar del de Bogotá y el logo de la CONAVI mexicana en lugar del banco Conavi.
+- **Dibujos genéricos:** una abeja cualquiera en lugar de la abejita de Conavi, y un juguete de pato.
+- **Frames de comerciales con marca de agua:** el Chupi Plum. También volvió a usar el afiche de la hormiguita de Telecom.
+- **Relleno sin relación:** un tenis en La 14 y otra cerveza («El León») en Leona.
+- **Fotos repetidas** de 3 a 4 veces.
+- **No entregó el EDL.**
+
+Todo esto se previene con **[AUTENTICIDAD_FOTOS.md](AUTENTICIDAD_FOTOS.md)** y con `python src/revisar_fotos.py final/edl.json`: hojas de contacto por parada, avisos automáticos (repetidas, baja resolución, fuente de otro país) y una planilla que hay que marcar foto por foto. **El verificador no aprueba si la planilla no está toda en OK.**
+
 ## Subtítulos (SRT)
 
 - **En la imagen NO van subtítulos**, igual que en el video de referencia.

@@ -142,6 +142,22 @@ if edl_path:
     nbw = sum(1 for p in P if p.get('bw'))
     chk('planos en blanco y negro (pérdida)', nbw >= round(npar * 2 / 3), str(nbw), f'>= {round(npar * 2 / 3)}')
 
+    # autenticidad (docs/AUTENTICIDAD_FOTOS.md): repetidas por IMAGEN (no por nombre) y planilla de revisión completa
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import revisar_fotos as RF
+    rutas = [r for _, r, _ in RF.fotos_del_edl(e) if os.path.exists(r)]
+    grupos = RF.duplicados(rutas)
+    chk('fotos repetidas comparando la imagen', not grupos, f'{len(grupos)} grupos' if grupos else '0',
+        '0 (ver final/revision/REVISION.md)')
+    planilla = os.path.join(os.path.dirname(os.path.abspath(edl_path)), 'revision', 'REVISION.md')
+    if os.path.exists(planilla):
+        filas = [l for l in open(planilla, encoding='utf-8') if re.match(r'\|\s*\d+\s*\|', l)]
+        ok = sum(1 for l in filas if re.search(r'\[x\] OK', l, re.I))
+        camb = sum(1 for l in filas if re.search(r'\[x\] CAMBIAR', l, re.I))
+        chk('revisión de autenticidad de fotos', ok == len(filas) and camb == 0, f'{ok}/{len(filas)} OK, {camb} CAMBIAR', 'todas OK')
+    else:
+        chk('revisión de autenticidad de fotos', False, 'no hecha', 'correr src/revisar_fotos.py y marcar todas')
+
     # cierre: carrusel en el último minuto y palabra final hasta el final
     carr = any(p['tipo'] == 'papel' and p['papel']['modo'] == 'carrusel' and p['t0'] > dur - 60 for p in P)
     fin = any(c['tipo'] == 'palabra' and c['t'] + c['dur'] >= dur - 1.5 for c in C)
