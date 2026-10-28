@@ -23,7 +23,7 @@ El v6 corrigió el texto en tarjetas, pero el verificador lo rechazó por esto:
 - **Una sola foto por parada.** La misma imagen duró 50, 70, 80 y hasta **114 s** (3 cortes por minuto). **Obligatorio: 1 imagen distinta cada 6 s como mínimo en CADA parada**, una por cada cosa que se narra. En el aprobado son de 10 a 18 imágenes por parada.
 - **Fotos que no corresponden.** En la parada del Chupi Plum nunca salió un Chupi Plum, solo niños en un recreo, y esa foto se repitió en el Tía. La apertura de Conavi salió sobre la foto del Ley. **Cada apertura va sobre una foto de SU marca.**
 - **Aperturas numeradas incompletas.** Solo 5 de 12. **Obligatorio: el número grande con el nombre antes de CADA ficha**, en las 12.
-- **Voz acelerada un 13 %** (12:16 en vez de 13:52). **PROHIBIDO acelerar el audio** (atempo o similar). Se usa `audio/voz_final.wav` tal como sale de `src/voz.ps1`, que solo quita silencios.
+- **Voz acelerada un 13 %** (12:16 en vez de 13:52). **PROHIBIDO acelerar el audio** (atempo o similar). Se usa `audio/voz_final.wav` tal como sale de `src/voz.ps1`, que solo acorta los silencios largos.
 - **Sin video real.** Todo eran fotos fijas. Obligatorio: unos 25 clips por cada 14 min.
 - **Sin cierre.** Obligatorio: el número del total, el carrusel con una foto por marca y su número, y la palabra final hasta el último segundo.
 - **Afiches y frames de comerciales** (la hormiguita de Telecom, el comercial de la abejita). Prohibidos.
@@ -71,8 +71,8 @@ Todo esto se previene con **[AUTENTICIDAD_FOTOS.md](AUTENTICIDAD_FOTOS.md)** y c
 | Números rojos de cifras (años, precios) | **≥ 1 por ítem** | 24 | casi 0 |
 | Palabras gigantes | **≥ 1 cada 1.5 min** | 24 | 0 |
 | Notas a máquina (lemas entre comillas) | **≥ 1 cada 2 ítems** | 11 | 0 |
-| Voz: volumen y pausas | −16 a −13 LUFS, pausas ≤ 0.35 s | −15.4 / 0 | −14.7 / 0 ✔ |
-| Velocidad de la voz (no acelerada) | 3.2 a 3.8 palabras/s | ~3.6 | ~4.0 en el v6 (acelerada) |
+| Voz: volumen y pausas | −16 a −13 LUFS, ninguna pausa > 0.9 s (las de más de 0.8 s se dejan en 0.5 s) | −15.4 / 0 | −14.7 / 0 ✔ |
+| Velocidad de la voz (no acelerada) | 2.9 a 3.8 palabras/s (con pausas naturales sale ~3.1) | ~3.6 | ~4.0 en el v6 (acelerada) |
 | Imágenes distintas por parada | ≥ 1 cada 6 s en cada parada | 10 a 18 por parada | 1 o 2 en el v6 |
 | Aperturas numeradas | antes de cada ficha | 12 de 12 | 5 de 12 en el v6 |
 | Cierre | carrusel + palabra final | sí | no en el v6 |

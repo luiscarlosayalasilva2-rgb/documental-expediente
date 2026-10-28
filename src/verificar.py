@@ -10,8 +10,8 @@ Metas (medidas sobre el video aprobado; ver docs/REGLAS_DURAS.md):
 - plano más largo en el EDL     <= 11 s (aprobado: 10.3 s, el carrusel del cierre)
 - pantallas con número/palabra (fondo oscurecido) >= 3 por minuto
 - negros de más de 0.3 s        = 0
-- voz: integrado entre -16 y -13 LUFS y ninguna pausa > 0.35 s
-- velocidad de la voz: 3.2 a 3.8 palabras por segundo (aprobado: 3.6). Prohibido acelerar el audio con atempo.
+- voz: integrado entre -16 y -13 LUFS; pausas naturales: solo se acortan las > 0.8 s (Luis 2026-10-27), ninguna > 0.9 s
+- velocidad de la voz: 2.9 a 3.8 palabras por segundo (aprobado: 3.6; con pausas naturales, pedido de Luis 2026-10-27, ~3.1). Prohibido acelerar el audio con atempo.
 EL EDL ES OBLIGATORIO (sin él el video no se aprueba). Con EDL además: >= 25 clips de video, 0 fotos repetidas
 (salvo carrusel), >= 1 número rojo por parada, >= 1 palabra gigante por minuto y medio, apertura numerada
 (número grande + nombre) justo antes de CADA ficha, >= 1 imagen distinta cada 6 s en CADA parada,
@@ -53,7 +53,7 @@ while i < n:
 negros = len(re.findall(r'black_start', ff(['-i', video, '-an', '-vf', 'blackdetect=d=0.3:pix_th=0.08', '-f', 'null', '-'])))
 lufs = re.findall(r'^\s+I:\s+([-\d.]+) LUFS', ff(['-i', video, '-vn', '-af', 'ebur128', '-f', 'null', '-']), re.M)
 lufs = float(lufs[-1]) if lufs else 0.0
-sil = [float(x) for x in re.findall(r'silence_duration: ([\d.]+)', ff(['-i', video, '-vn', '-af', 'silencedetect=n=-40dB:d=0.35', '-f', 'null', '-']))]
+sil = [float(x) for x in re.findall(r'silence_duration: ([\d.]+)', ff(['-i', video, '-vn', '-af', 'silencedetect=n=-40dB:d=0.9', '-f', 'null', '-']))]
 
 res = []
 def chk(nombre, ok, valor, meta):
@@ -66,7 +66,7 @@ chk('tramo sin corte visible', plano_max <= 30, f'{plano_max:.1f} s', '<= 30 s')
 chk('números/palabras (fondo oscurecido) por min', velos / mins >= 3, f'{velos / mins:.1f}', '>= 3')
 chk('negros > 0.3 s', negros == 0, str(negros), '0')
 chk('volumen integrado de la voz', -16 <= lufs <= -13, f'{lufs:.1f} LUFS', '-16 a -13')
-chk('pausas de la voz > 0.35 s', len(sil) <= 2, str(len(sil)), '<= 2')
+chk('pausas de la voz > 0.9 s', len(sil) <= 2, str(len(sil)), '<= 2')
 
 # velocidad de la voz: palabras por segundo en 3 tramos de 40 s (detecta audio acelerado)
 try:
@@ -81,7 +81,7 @@ try:
         trozos, _ = modelo.transcribe(np.frombuffer(pcm, np.int16).astype(np.float32) / 32768, language='es', vad_filter=False)
         pal += sum(len(t.text.split()) for t in trozos); seg += 40
     pps = pal / seg
-    chk('velocidad de la voz (no acelerada)', 3.2 <= pps <= 3.8, f'{pps:.2f} pal/s', '3.2 a 3.8')
+    chk('velocidad de la voz (no acelerada)', 2.9 <= pps <= 3.8, f'{pps:.2f} pal/s', '2.9 a 3.8')
 except ImportError:
     print('      (sin faster-whisper: no se midió la velocidad de la voz)')
 
@@ -99,7 +99,7 @@ if edl_path:
     rep = sum(v - 1 for v in usos.values() if v > 1)
     tipos = Counter(c['tipo'] for c in C)
     aperturas = sum(1 for c in C if c['tipo'] == 'numero' and c.get('grande'))
-    fichas = sum(1 for c in C if c['tipo'] == 'file')
+    fichas = sum(1 for c in C if c['tipo'] == 'file' and not c.get('titulo'))  # el letrero inicial no es una parada
     videos = sum(1 for p in P if p['tipo'] == 'video')
     papeles = sum(p['t1'] - p['t0'] for p in P if p['tipo'] == 'papel')
     print()
@@ -113,7 +113,7 @@ if edl_path:
     chk('tiempo en escenas de papel', papeles / dur <= 0.15, f'{papeles / dur * 100:.0f} %', '<= 15 %')
 
     # apertura numerada justo antes de CADA ficha
-    fts = sorted(c['t'] for c in C if c['tipo'] == 'file')
+    fts = sorted(c['t'] for c in C if c['tipo'] == 'file' and not c.get('titulo'))
     ats = [c['t'] for c in C if c['tipo'] == 'numero' and c.get('grande')]
     sin_ap = [round(t) for t in fts if not any(0 <= t - a <= 4 for a in ats)]
     chk('cada ficha con su apertura numerada', not sin_ap, 'todas' if not sin_ap else f'faltan en {sin_ap}', 'todas')

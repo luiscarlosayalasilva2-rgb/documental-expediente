@@ -19,7 +19,7 @@ for linea in open(guion, encoding='utf-8'):
     linea = linea.strip()
     if not linea:
         continue
-    if re.match(r'^(INTRO|CIERRE|PARADA \d+)', linea):
+    if re.match(r'^(INTRO|CIERRE|LLAMADO|PARADA \d+)', linea):
         seccion = linea; continue
     if seccion == 'TITULO':
         continue

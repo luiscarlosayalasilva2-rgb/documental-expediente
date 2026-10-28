@@ -125,12 +125,18 @@ for i, p in enumerate(planos):
         for j in range(1, len(s['fotos'])):
             poner(p['t0'] + j * paso - 0.1, whoosh(0.45), 0.07)
 
-# ---- especiales de la narración (tiempos de audio/palabras.json) ----
-poner(517.05, plum(), 0.30)              # "Escuche: ¡PLUM!"
-poner(263.55, timbre(0.85), 0.07)        # antes de «Voy al Telecom»
-poner(121.4, vhs(), 0.16)                # la cinta en la videocasetera
-for k in range(4):                       # "moneda por moneda, aprendimos a ahorrar"
-    poner(769.2 + k * 0.42, moneda(), 0.10 * (1 - k * 0.12))
+# ---- especiales de la narración ----
+# En un tema nuevo se definen en el EDL: "especiales": [{"t": seg, "sonido": "plum|timbre|vhs|moneda", "gan": 0.12}]
+ESPECIALES = {'plum': lambda: plum(), 'timbre': lambda: timbre(0.85), 'vhs': lambda: vhs(), 'moneda': lambda: moneda()}
+if 'especiales' in edl:
+    for e_ in edl['especiales']:
+        if e_['sonido'] in ESPECIALES: poner(e_['t'], ESPECIALES[e_['sonido']](), e_.get('gan', 0.12))
+else:  # EDL del video de referencia (12 marcas): tiempos de su audio/palabras.json
+    poner(517.05, plum(), 0.30)              # "Escuche: ¡PLUM!"
+    poner(263.55, timbre(0.85), 0.07)        # antes de «Voy al Telecom»
+    poner(121.4, vhs(), 0.16)                # la cinta en la videocasetera
+    for k in range(4):                       # "moneda por moneda, aprendimos a ahorrar"
+        poner(769.2 + k * 0.42, moneda(), 0.10 * (1 - k * 0.12))
 
 # ---- guardar ----
 pk = np.max(np.abs(out)); print('pico efectos', round(20 * np.log10(pk), 1), 'dBFS')

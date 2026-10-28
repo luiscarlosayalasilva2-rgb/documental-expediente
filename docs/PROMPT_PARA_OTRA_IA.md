@@ -21,7 +21,7 @@ Reglas que no se negocian:
 - Cada ítem de la lista abre con su **número rojo grande y el nombre** debajo, y luego la ficha "PARADA N".
 - Fotos auténticas (Google, redes, foros, Pixabay o Commons). Nada de imágenes de IA, frames de comerciales de TV ni marcas de agua.
 - **Autenticidad:** lee `docs/AUTENTICIDAD_FOTOS.md`. Cada foto debe ser **del país del video** y de **la marca correcta**, no de un homónimo: nada de Casa Ley de México, Tía de Ecuador ni CONAVI de México. **Nada de dibujos genéricos, juguetes, afiches ni comerciales.** Antes de buscar, escribe la tabla de homónimos de las marcas del guion. Antes de renderizar, corre `python src/revisar_fotos.py final/edl.json`, mira cada hoja y marca cada foto OK o CAMBIAR en `final/revision/REVISION.md`; se renderiza solo cuando todas digan OK.
-- Voz sin silencios, sin música, solo los efectos sintetizados de `src/efectos.py`. Sin créditos.
+- Voz con pausas naturales (solo se acortan los silencios de más de 0.8 s), sin música, solo los efectos sintetizados de `src/efectos.py`. Sin créditos.
 - Antes de entregar, corre `python src/verificar.py video.mp4 edl.json`. **Solo se entrega si dice APROBADO.**
 - **Una imagen distinta cada 6 s como mínimo en cada parada** (una por cada cosa que se narra), nunca la misma foto durante toda una parada.
 - **Apertura numerada (número grande + nombre) en las 12 paradas**, sobre una foto de esa marca, y el **cierre** con carrusel y palabra final.

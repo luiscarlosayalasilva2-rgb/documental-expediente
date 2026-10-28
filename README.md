@@ -25,7 +25,7 @@ Lo que sigue es el próximo video, anunciado en el guion: **la tienda del colegi
 
 - **Material:** fotos **auténticas** que correspondan a lo que se narra, cada imagen pegada al segundo exacto en que la voz lo dice. Guía completa en **`docs/IMAGENES_Y_SINCRONIA.md`**. Se buscan en Google Imágenes, redes sociales y foros. **Nada de imágenes generadas con IA (no Flow).**
 - **Créditos:** no se ponen en pantalla ni en la descripción. Solo se guardan internamente en `fuentes.tsv`.
-- **Voz:** sin espacios vacíos. Pausas de 0.28 s como máximo. Luis rechazó devolverle respiros.
+- **Voz:** con sus pausas naturales. `src/voz.ps1` (con `src/pausas.py`) solo acorta los silencios de más de 0.8 s y los deja en 0.5 s. Desde el 2026-10-27 Luis pidió no cortar tanto: antes se quitaba toda pausa de más de 0.15 s y la voz quedaba atropellada. El video no debe bajar de la duración pedida por cortar silencios.
 - **Audio:** solo efectos de sonido sintetizados con código, sin derechos de autor. **Sin música.**
 - **Listas:** cada ítem sale **numerado**, con el número rojo grande y el nombre debajo.
 - **Descripciones:** sin preguntas, sin mencionar IA, con 3 emojis y la palabra clave primero.

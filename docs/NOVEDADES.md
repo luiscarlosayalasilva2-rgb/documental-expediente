@@ -10,6 +10,22 @@ Después lee esta página de arriba hacia abajo **hasta la última versión que 
 
 ---
 
+## 2026-10-27 · Voz con pausas naturales, letrero inicial y video de Navidad
+
+**Qué cambió**
+- **Voz:** Luis pidió "no hagas tantos cortes en el audio donde hay espacios vacíos" y que el video no baje de la duración pedida por cortar silencios. `src/voz.ps1` ahora usa `src/pausas.py`: **solo los silencios de más de 0.8 s quedan en 0.5 s**; las pausas normales entre frases no se tocan (en el video de Navidad: 12:45 → 12:16). Antes se quitaba toda pausa de más de 0.15 s.
+- **Verificador:** la meta de pausas pasa a "ninguna > 0.9 s" y la de velocidad a **2.9–3.8 palabras/s** (con pausas naturales sale ~3.1; el techo sigue detectando voz acelerada).
+- **Letrero en los primeros 5 s:** Luis lo pidió para que el espectador sepa de qué va el video. Es una ficha a máquina en el segundo 0.6 que dura 4.6 s, con `"titulo": true` para que el verificador no la cuente como parada: `{"tipo":"file","t":0.6,"dur":4.6,"texto":"Así era la Navidad en Colombia","etiqueta":"Expediente diciembre","titulo":true}`.
+- **Sección LLAMADO:** `src/alinear.py` acepta el título `LLAMADO` (el "suscríbete" a mitad del video) como sección propia, para que no se mezcle con la parada anterior.
+- **Efectos especiales desde el EDL:** `src/efectos.py` lee `"especiales": [{"t": seg, "sonido": "plum|timbre|vhs|moneda"}]`; sin esa clave usa los del video de referencia.
+- **Ejemplo nuevo de tema:** `src/edl_navidad.py`, `src/miniatura_navidad.py` y `docs/ejemplos/guion_navidad12.txt` (12 costumbres navideñas, 12:25, APROBADO).
+- **Luis ya no quiere demos:** se entrega directamente el video completo, verificado.
+- **Revisar que el audio esté completo** antes de armar el EDL: transcribir los últimos 20 s del original. En el video de Navidad el audio venía cortado y faltaba el cierre.
+
+**Qué corregir si tienes un video en curso**
+1. Vuelve a generar la voz con el `src/voz.ps1` nuevo, y después rehaz la transcripción, la alineación y el EDL (los tiempos cambian).
+2. Agrega el letrero de los primeros 5 s.
+
 ## 2026-10-25 · Prompts de investigación para Gemini
 - [PROMPTS_INVESTIGACION_GEMINI.md](PROMPTS_INVESTIGACION_GEMINI.md): 6 prompts en orden (elegir ítems, fichas con datos verificables, anécdotas reales, dónde están las fotos auténticas y homónimos, guion con el formato del método y verificación). El guion sale listo para `nuevo_video.py`.
 
