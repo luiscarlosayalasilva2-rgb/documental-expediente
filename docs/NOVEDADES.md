@@ -10,6 +10,19 @@ Después lee esta página de arriba hacia abajo **hasta la última versión que 
 
 ---
 
+## 2026-10-28 · Video de comerciales sin frames de comerciales
+
+**Qué cambió**
+- **Ejemplo nuevo de tema:** `src/edl_comerciales.py`, `src/miniatura_comerciales.py`, `docs/ejemplos/guion_comerciales10.txt` y `docs/ejemplos/comerciales10/clips.json` (10 comerciales colombianos, 11:20).
+- **Aunque el tema sean comerciales, NO se usan frames de comerciales.** El guion traía marcas `[CLIP: comercial de…]` y Luis eligió "Sin comerciales" por Content ID: se muestran los empaques, productos y personas reales (la tarjeta y la libreta de Conavi, el Renault 4, René Higuita) y clips de ambiente. En Google salen frames de Frutiño con Higuita y del granito de Águila Roja: no sirven.
+- **`edl_comerciales.py` rellena el esqueleto de `nuevo_video.py` con listas:** fotos por sección en orden de narración, clips por sección (`datos/clips.json`), papeles y carrusel. Si a una sección le faltan fotos, alarga el plano anterior, pero **nunca una escena de papel** (eso dejó un papel de 23 s en la primera pasada) y avisa.
+- **`nuevo_video.py` solo pone notas a máquina en lemas entre «comillas angulares».** Si el guion usa comillas rectas, las 5 notas se agregan a mano (ver el script).
+- **Revisar el audio contra el guion:** la voz se saltó una frase del Renault 4; se quitó del `guion.txt` antes de alinear.
+- Fuentes de Argentina, Perú o México en fotos "genéricas" de televisores o salas también se descartan (salen con letreros como "Archivo TV Cine Piura Perú").
+
+**Qué corregir si tienes un video en curso**
+- Nada obligatorio. Si tu tema es de publicidad, aplica la regla de no usar frames de comerciales.
+
 ## 2026-10-27 · Voz con pausas naturales, letrero inicial y video de Navidad
 
 **Qué cambió**
